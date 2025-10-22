@@ -19549,7 +19549,7 @@
   "15346": {
     "id": 15346,
     "aegisName": "Overwhelm_Luk_Armor",
-    "name": "Unexpected Fortune Armor [1]",
+    "name": "Armadura Temporal SUE [1]",
     "unidName": "Armor",
     "resName": "치우의갑옷",
     "description": "ชุดเกราะแสงสีม่วงที่แฝงไปด้วยความโชคดีที่เกินความคาดหมายเอาไว้ \nATK + 50. \nทุกอัพเกรด 3 ขั้น เพิ่ม Critical Damage 2%\nเมื่ออัพเกรดขั้น 7, เผิกเฉยต่อพลังป้องกันทางกายภาพของมอนสเตอร์ เผ่า Brute, เผ่า Demon 30% \nเมื่ออัพเกรดขั้น 9, เพิ่ม Damage ทางกายภาพที่สร้างต่อมอนสเตอร์ เผ่า Brute, เผ่า Demon 10%\nเมื่ออัพเกรดขั้น 11, เพิ่ม Damage ทางกายภาพที่สร้างต่อมอนสเตอร์ธาตุ Wind และธาตุ Earth 10%\nเมื่อสวมใส่รวมกับ Temporal Luk Boots[1] หรือ Modified Luk Boots[1], \nเพิ่ม Critical Damage 10%\nเมื่อขั้นอัพเกรดรวมกันมากกว่า 21 ขั้น \nเผิกเฉยต่อพลังป้องกันทางกายภาพของมอนสเตอร์ เผ่า Brute, เผ่า Demon เพิ่มอีก 20% \nประเภท : ^777777Armor^000000 พลังป้องกัน : ^777777120^000000\nน้ำหนัก : ^777777200^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -155538,7 +155538,7 @@
     "name": "Young Leaf of World Tree (Luk)",
     "unidName": "Mask",
     "resName": "입에무는식물줄기",
-    "description": "ใบอ่อนบนต้น Yggdrasil อันเป็นแกนกลางของโลกใบนี้ เมื่ออยู่คู่กันกับอุปกรณ์ประเภท Temporal จะเผยพลังลึกลับที่ซ่อนไว้ออกมา\nเมื่อสวมใส่ร่วมกับ Temporal Luk Manteau และ Unexpected Fortune Armor/[Not for Sale] Unexpected Fortune Armor เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 10% (ยกเว้น Player),\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 14 ขึ้นไป ATK +80\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 10% และ Critical Damage +12%\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เพิ่ม Damage ทางกายภาพระยะใกล้และระยะไกล 10%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777775^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "ใบอ่อนบนต้น Yggdrasil อันเป็นแกนกลางของโลกใบนี้ เมื่ออยู่คู่กันกับอุปกรณ์ประเภท Temporal จะเผยพลังลึกลับที่ซ่อนไว้ออกมา\nเมื่อสวมใส่ร่วมกับ Temporal Luk Manteau และ Armadura Temporal SUE/[Not for Sale] Armadura Temporal SUE เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 10% (ยกเว้น Player),\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 14 ขึ้นไป ATK +80\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 10% และ Critical Damage +12%\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เพิ่ม Damage ทางกายภาพระยะใกล้และระยะไกล 10%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777775^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 0,
     "itemTypeId": 2,
     "itemSubTypeId": 512,
@@ -155554,22 +155554,22 @@
     ],
     "script": {
       "p_race_all": [
-        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]===10"
+        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]===10"
       ],
       "atk": [
-        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]REFINE[armor,garment==14]===80"
+        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]REFINE[armor,garment==14]===80"
       ],
       "p_size_all": [
-        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]REFINE[armor,garment==18]===10"
+        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]REFINE[armor,garment==18]===10"
       ],
       "criDmg": [
-        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]REFINE[armor,garment==18]===12"
+        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]REFINE[armor,garment==18]===12"
       ],
       "range": [
-        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]REFINE[armor,garment==22]===10"
+        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]REFINE[armor,garment==22]===10"
       ],
       "melee": [
-        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]REFINE[armor,garment==22]===10"
+        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]REFINE[armor,garment==22]===10"
       ]
     }
   },
