@@ -1,28 +1,4 @@
 {  
-"27088": {
-    "id": 27088,
-    "aegisName": "Fury_Hero_Card",
-    "name": "Fury Hero Card",
-    "unidName": "Fury Hero Card",
-    "resName": "광기의모험가카드",
-    "description": "ATK Weapon 2%",
-    "slots": 0,
-    "itemTypeId": 6,
-    "itemSubTypeId": 0,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 1,
-    "requiredLevel": null,
-    "location": null,
-    "compositionPos": 769,
-    "cardPrefix": "of Thief",
-    "script": {
-    "atkPercent": [
-        "2"
-      ]
-    }
-  },
  "24062": {
     "id": 24062,
     "aegisName": "S_Bloody_Shoes",
