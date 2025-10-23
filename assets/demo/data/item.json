@@ -1,4 +1,667 @@
-{	  
+{
+    "15038": {
+    "id": 15038,
+    "aegisName": "Sabah_Cloth",
+    "name": "Saphas Cloth [1]",
+    "unidName": "Armor",
+    "resName": "사바흐의클로스",
+    "description": "กาตาร์ที่รู้จักกันว่าใช้โดย Assassin Cheongeun กล่าวกันว่าตั้งชื่ออาวุธของตนเองตามชื่อของคนรักที่ไม่สามารถพบกับได้อีก\nเพิ่ม Damage ทางกายภาพ 1% ต่อระดับ Refine 2 ระดับ\nเพิ่มความเร็วโจมตี (ลดดีเลย์หลังโจมตี 1% ต่อระดับ Refine 1 ระดับ)\nทำลายไม่ได้\nประเภท : ^777777Katar^000000 โจมตี : ^777777300^000000\nน้ำหนัก : ^777777250^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777170^000000\nติดตั้ง : ^777777Guillotine Cross^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 45,
+    "weight": 10,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "GuillotineCross"
+    ],
+    "script": {
+	 "luk": [
+        "3"
+      ],
+	  "criDmg": [
+        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===40"
+      ],
+      "flee": [
+        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===10"
+      ],
+      "cri": [
+        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===15"
+      ],
+      "Cross Impact": [
+        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===20"
+      ]
+	}
+  },
+  "1746": {
+    "id": 1746,
+    "aegisName": "Elven_Bow",
+    "name": "Elven Bow [1]",
+    "unidName": "엘븐보우",
+    "resName": "Elven Bow",
+    "description": "คันธนูที่กล่าวกันว่านักล่ามักจะใช้กัน ถึงแม้ว่าวิธีใช้จะยุ่งยาก แต่เมื่อได้ใช้แล้ว การยิงที่เฉียบคมและพลังทำลายล้างของมันก็จะทำให้ผู้ใช้ตกหลุมรักได้ไม่ยาก\nเมื่อสวมใส่ร่วมกับ Hunting Arrow, เพิ่ม Damage ทางกายภาพระยะไกล 50%\nทุก ๆ การอัพเกรด 1 ขั้น CRI + 1\nเมื่ออัพเกรดถึงขั้น 7 เพิ่ม ASPD 10% \nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Critical Damage 15%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage ทางกายภาพที่ทำต่อมอนสเตอร์ประเภท Insect, Animal 30%\n^ffffff_^000000\nเมื่อสวมใส่ร่วมกับ Illusion Boots, ATK + 10%\nเมื่อ Illusion Hunter Bow และ Illusion Boots อัพเกรดถึงขั้น 7 ขึ้นไป ASPD + 2\nหากขั้นอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป เพิ่ม Critical Damage 10%\nหากขั้นอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เมื่อทำการโจมตีทางกายภาพระยะไกลแบบธรรมดา มีโอกาสใช้งาน Hunter's Sight เป็นเวลา 10 วินาที\n^32CD32[Hunter's Sight]^000000\nATK + 100, เพิ่ม Critical Damage 15%,\nเพิ่ม Damage ทางกายภาพที่ทำต่อมอนสเตอร์ประเภท Insect, Animal 50%\nประเภท : ^777777Bow^000000 พลังโจมตี : ^777777165^000000\nน้ำหนัก : ^777777150^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777120^000000\nอาชีพที่ใส่ได้ : ^777777Ranger^000000",
+    "slots": 1,
+    "itemTypeId": 1,
+    "itemSubTypeId": 267,
+    "itemLevel": 3,
+    "attack": 160,
+    "defense": null,
+    "weight": 150,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Ranger",
+	  "Troubadour",
+	  "Trouvere"
+    ],
+    "script": {
+		"dex": [
+        "2"
+      ]
+	}
+  },
+  "2477": {
+    "id": 2477,
+    "aegisName": "Sabah_Shoes",
+    "name": "Sapha Shoes [1]",
+    "unidName": "Footwear",
+    "resName": "사바흐의슈즈",
+    "description": "Shoes จาก archer guild ที่รู้จักกันในนาม Icarus\nAGI + 2\nลดการใช้ SP ของสกิล Aimed Bolt ลง 10\nประเภท : ^777777Footwear^000000 พลังป้องกัน : ^77777718^000000\nน้ำหนัก : ^77777740^000000\nLv ที่ต้องการ : ^777777100^000000\nอาชีพ : ^777777Ranger^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 516,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 18,
+    "weight": 40,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "GuillotineCross"
+    ],
+    "script": {
+      "luk": [
+        "3"
+      ],
+	  "sp": [
+        "30"
+      ]
+	  }
+    },
+  "2886": {
+    "id": 2886,
+    "aegisName": "Sabah_Ring",
+    "name": "Sapha Ring",
+    "unidName": "Accessory",
+    "resName": "사바흐의링",
+    "description": "Shoes จาก archer guild ที่รู้จักกันในนาม Icarus\nAGI + 2\nลดการใช้ SP ของสกิล Aimed Bolt ลง 10\nประเภท : ^777777Footwear^000000 พลังป้องกัน : ^77777718^000000\nน้ำหนัก : ^77777740^000000\nLv ที่ต้องการ : ^777777100^000000\nอาชีพ : ^777777Ranger^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "GuillotineCross"
+    ],
+    "script": {
+      "cri": [
+        "3"
+      ]
+	  }
+    },
+  "2577": {
+    "id": 2577,
+    "aegisName": "Sabah_Hood",
+    "name": "Sapha Hood",
+    "unidName": "Garmet",
+    "resName": "사바흐의링",
+    "description": "Shoes จาก archer guild ที่รู้จักกันในนาม Icarus\nAGI + 2\nลดการใช้ SP ของสกิล Aimed Bolt ลง 10\nประเภท : ^777777Footwear^000000 พลังป้องกัน : ^77777718^000000\nน้ำหนัก : ^77777740^000000\nLv ที่ต้องการ : ^777777100^000000\nอาชีพ : ^777777Ranger^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 13,
+    "weight": 10,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "GuillotineCross"
+    ],
+    "script": {
+      "flee": [
+        "12"
+      ],
+	  "criDmg": [
+        "1---1"
+      ]
+    }
+  },
+  "470373": {
+    "id": 470373,
+    "aegisName": "Excelion_Boots",
+    "name": "Excelion Leg",
+    "unidName": "Footwear",
+    "resName": "엑셀리온슈츠",
+    "description": "Power Suit ที่สร้างขึ้นด้วยเทคโนโลยีที่หายไปกับศูนย์วิจัยที่พังลงไป\nVIT+6.\nเมื่อ Lv. 130 ขึ้นไป VIT + 4\nเพิ่ม MHP 4% ทุกๆ 3 อัพเกรด\nเมื่อสวมใส่กับ [Excelion Wing]\nลดดีเลย์หลังใช้สกิล 10%\nเมื่อ Lv. 130 ขึ้นไป ลดดีเลย์หลังใช้สกิลเพิ่มอีก 10%\nPerfect Dodge + 6, ไม่สามารถทำลายได้\nประเภท : ^777777Armor^000000 พลังป้องกัน : ^777777100^000000\nน้ำหนัก : ^777777100^000000\nเลเวลที่ต้องการ : ^77777799^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 516,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 100,
+    "weight": 100,
+    "requiredLevel": 99,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "fct": [
+        "SUM[level==130]===0.5"
+      ],
+      "vct": [
+        "10"
+      ],
+	  "hit": [
+		"1---3",
+        "10"
+      ]
+    }
+  },
+  "24019": {
+    "id": 24019,
+    "aegisName": "S_Physical_Weapon",
+    "name": "Physical Shadow Glove",
+    "unidName": "Shadow Weapon",
+    "resName": "피지컬웨폰S",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 280,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Weapon",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "atk": [
+        "1---1",
+		"10",
+	    "EQUIP[Dark Physical Necklace&&Dark Physical Earring]REFINE[shadowEarring,shadowWeapon,shadowPendant--1]---1"
+      ],
+      "matk": [
+        "1---1"
+      ],
+      "atkPercent": [
+        "7===1",
+	    "EQUIP[Dark Physical Necklace&&Dark Physical Earring]REFINE[shadowEarring,shadowWeapon,shadowPendant==23]===1"
+      ]
+    }
+  },
+  "24020": {
+    "id": 24020,
+    "aegisName": "S_Physical_Pendant",
+    "name": "Dark Physical Necklace",
+    "unidName": "Shadow Pendant",
+    "resName": "피지컬펜던트S",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 530,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Accessory",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "hp": [
+		"100",
+		"1---10"
+      ],
+      "hpPercent": [
+        "7===1"
+      ]
+    }
+  },
+  "24018": {
+    "id": 24018,
+    "aegisName": "S_Physical_Earring",
+    "name": "Dark Physical Earring",
+    "unidName": "Shadow Earring",
+    "resName": "피지컬이어링S",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 529,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Accessory",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "hp": [
+		"100",
+		"1---10"
+      ],
+      "aspdPercent": [
+        "7===1"
+      ]
+    }
+  },
+  "1181": {
+    "id": 1181,
+    "aegisName": "Tae_Goo_Lyeon",
+    "name": "Tae Goo Lyeon [2]",
+    "unidName": "Two-Handed Sword",
+    "resName": "태구련",
+    "description": "ดาบนี้เป็นที่รู้จักในชื่อดาบแห่งผู้กล้าตะวันออก\nPerfect Dodge +10\nทุก ๆ การอัพเกรด 1 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 2%\nเมื่ออัพเกรดถึงขั้น 7 ลดปริมาณการใช้ SP 20%\nเมื่ออัพเกรดถึงขั้น 9 ลด Delay หลังใช้สกิล 20%\nเมื่ออัพเกรดถึงขั้น 11, MHP +10%, MSP +10%\n^ffffff_^000000\nเมื่อสวมใส่ร่วมกับ Illusion Boots เพิ่ม Damage ทางกายภาพระยะไกล 3%\nเมื่อ Illusion Tae Goo Lyeon และ Illusion Boots อัพเกรดตั้งแต่ 7 ขึ้นไป ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป ลดระยะเวลาร่ายแบบคงที่ 0.5 วินาที\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เพิ่ม Damage สกิล Dragon Breath, Dragon Breath - WATER 20%\n^ffffff_^000000\nประเภท : ^777777Two-Handed Sword^000000 พลังโจมตี : ^777777250^000000\nน้ำหนัก : ^777777200^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777120^000000\nอาชีพที่ใส่ได้ : ^7777773rd Class Swordman^000000",
+    "slots": 2,
+    "itemTypeId": 1,
+    "itemSubTypeId": 258,
+    "itemLevel": 4,
+    "attack": 250,
+    "defense": null,
+    "weight": 200,
+    "requiredLevel": 90,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Swordman"
+    ],
+    "script": {
+      "perfectDodge": [
+        "10"
+      ],
+      "acd": [
+        "9===20"
+      ]
+    }
+  },
+  "4638": {
+    "id": 4638,
+    "aegisName": "Watcher_Card",
+    "name": "Watcher Card",
+    "unidName": "Watcher Card",
+    "resName": "와쳐카드",
+    "description": "ATK +30.\nWhen receiving physical attacks:\nDrains 5 SP from the user.",
+    "slots": 0,
+    "itemTypeId": 6,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 16,
+    "cardPrefix": "da Agressividade",
+    "script": {
+      "atk": [
+        "30",
+        "10===5"
+      ]
+    }
+  },	    "15038": {
+    "id": 15038,
+    "aegisName": "Sabah_Cloth",
+    "name": "Saphas Cloth [1]",
+    "unidName": "Armor",
+    "resName": "사바흐의클로스",
+    "description": "กาตาร์ที่รู้จักกันว่าใช้โดย Assassin Cheongeun กล่าวกันว่าตั้งชื่ออาวุธของตนเองตามชื่อของคนรักที่ไม่สามารถพบกับได้อีก\nเพิ่ม Damage ทางกายภาพ 1% ต่อระดับ Refine 2 ระดับ\nเพิ่มความเร็วโจมตี (ลดดีเลย์หลังโจมตี 1% ต่อระดับ Refine 1 ระดับ)\nทำลายไม่ได้\nประเภท : ^777777Katar^000000 โจมตี : ^777777300^000000\nน้ำหนัก : ^777777250^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777170^000000\nติดตั้ง : ^777777Guillotine Cross^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 45,
+    "weight": 10,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "GuillotineCross"
+    ],
+    "script": {
+	 "luk": [
+        "3"
+      ],
+	  "criDmg": [
+        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===40"
+      ],
+      "flee": [
+        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===10"
+      ],
+      "cri": [
+        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===15"
+      ],
+      "Cross Impact": [
+        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===20"
+      ]
+	}
+  },
+  "1746": {
+    "id": 1746,
+    "aegisName": "Elven_Bow",
+    "name": "Elven Bow [1]",
+    "unidName": "엘븐보우",
+    "resName": "Elven Bow",
+    "description": "คันธนูที่กล่าวกันว่านักล่ามักจะใช้กัน ถึงแม้ว่าวิธีใช้จะยุ่งยาก แต่เมื่อได้ใช้แล้ว การยิงที่เฉียบคมและพลังทำลายล้างของมันก็จะทำให้ผู้ใช้ตกหลุมรักได้ไม่ยาก\nเมื่อสวมใส่ร่วมกับ Hunting Arrow, เพิ่ม Damage ทางกายภาพระยะไกล 50%\nทุก ๆ การอัพเกรด 1 ขั้น CRI + 1\nเมื่ออัพเกรดถึงขั้น 7 เพิ่ม ASPD 10% \nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Critical Damage 15%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage ทางกายภาพที่ทำต่อมอนสเตอร์ประเภท Insect, Animal 30%\n^ffffff_^000000\nเมื่อสวมใส่ร่วมกับ Illusion Boots, ATK + 10%\nเมื่อ Illusion Hunter Bow และ Illusion Boots อัพเกรดถึงขั้น 7 ขึ้นไป ASPD + 2\nหากขั้นอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป เพิ่ม Critical Damage 10%\nหากขั้นอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เมื่อทำการโจมตีทางกายภาพระยะไกลแบบธรรมดา มีโอกาสใช้งาน Hunter's Sight เป็นเวลา 10 วินาที\n^32CD32[Hunter's Sight]^000000\nATK + 100, เพิ่ม Critical Damage 15%,\nเพิ่ม Damage ทางกายภาพที่ทำต่อมอนสเตอร์ประเภท Insect, Animal 50%\nประเภท : ^777777Bow^000000 พลังโจมตี : ^777777165^000000\nน้ำหนัก : ^777777150^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777120^000000\nอาชีพที่ใส่ได้ : ^777777Ranger^000000",
+    "slots": 1,
+    "itemTypeId": 1,
+    "itemSubTypeId": 267,
+    "itemLevel": 3,
+    "attack": 160,
+    "defense": null,
+    "weight": 150,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Ranger",
+	  "Troubadour",
+	  "Trouvere"
+    ],
+    "script": {
+		"dex": [
+        "2"
+      ]
+	}
+  },
+  "2477": {
+    "id": 2477,
+    "aegisName": "Sabah_Shoes",
+    "name": "Sapha Shoes [1]",
+    "unidName": "Footwear",
+    "resName": "사바흐의슈즈",
+    "description": "Shoes จาก archer guild ที่รู้จักกันในนาม Icarus\nAGI + 2\nลดการใช้ SP ของสกิล Aimed Bolt ลง 10\nประเภท : ^777777Footwear^000000 พลังป้องกัน : ^77777718^000000\nน้ำหนัก : ^77777740^000000\nLv ที่ต้องการ : ^777777100^000000\nอาชีพ : ^777777Ranger^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 516,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 18,
+    "weight": 40,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "GuillotineCross"
+    ],
+    "script": {
+      "luk": [
+        "3"
+      ],
+	  "sp": [
+        "30"
+      ]
+	  }
+    },
+  "2886": {
+    "id": 2886,
+    "aegisName": "Sabah_Ring",
+    "name": "Sapha Ring",
+    "unidName": "Accessory",
+    "resName": "사바흐의링",
+    "description": "Shoes จาก archer guild ที่รู้จักกันในนาม Icarus\nAGI + 2\nลดการใช้ SP ของสกิล Aimed Bolt ลง 10\nประเภท : ^777777Footwear^000000 พลังป้องกัน : ^77777718^000000\nน้ำหนัก : ^77777740^000000\nLv ที่ต้องการ : ^777777100^000000\nอาชีพ : ^777777Ranger^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "GuillotineCross"
+    ],
+    "script": {
+      "cri": [
+        "3"
+      ]
+	  }
+    },
+  "2577": {
+    "id": 2577,
+    "aegisName": "Sabah_Hood",
+    "name": "Sapha Hood",
+    "unidName": "Garmet",
+    "resName": "사바흐의링",
+    "description": "Shoes จาก archer guild ที่รู้จักกันในนาม Icarus\nAGI + 2\nลดการใช้ SP ของสกิล Aimed Bolt ลง 10\nประเภท : ^777777Footwear^000000 พลังป้องกัน : ^77777718^000000\nน้ำหนัก : ^77777740^000000\nLv ที่ต้องการ : ^777777100^000000\nอาชีพ : ^777777Ranger^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 13,
+    "weight": 10,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "GuillotineCross"
+    ],
+    "script": {
+      "flee": [
+        "12"
+      ],
+	  "criDmg": [
+        "1---1"
+      ]
+    }
+  },
+  "470373": {
+    "id": 470373,
+    "aegisName": "Excelion_Boots",
+    "name": "Excelion Leg",
+    "unidName": "Footwear",
+    "resName": "엑셀리온슈츠",
+    "description": "Power Suit ที่สร้างขึ้นด้วยเทคโนโลยีที่หายไปกับศูนย์วิจัยที่พังลงไป\nVIT+6.\nเมื่อ Lv. 130 ขึ้นไป VIT + 4\nเพิ่ม MHP 4% ทุกๆ 3 อัพเกรด\nเมื่อสวมใส่กับ [Excelion Wing]\nลดดีเลย์หลังใช้สกิล 10%\nเมื่อ Lv. 130 ขึ้นไป ลดดีเลย์หลังใช้สกิลเพิ่มอีก 10%\nPerfect Dodge + 6, ไม่สามารถทำลายได้\nประเภท : ^777777Armor^000000 พลังป้องกัน : ^777777100^000000\nน้ำหนัก : ^777777100^000000\nเลเวลที่ต้องการ : ^77777799^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 516,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 100,
+    "weight": 100,
+    "requiredLevel": 99,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "fct": [
+        "SUM[level==130]===0.5"
+      ],
+      "vct": [
+        "10"
+      ],
+	  "hit": [
+		"1---3",
+        "10"
+      ]
+    }
+  },
+  "24019": {
+    "id": 24019,
+    "aegisName": "S_Physical_Weapon",
+    "name": "Physical Shadow Glove",
+    "unidName": "Shadow Weapon",
+    "resName": "피지컬웨폰S",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 280,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Weapon",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "atk": [
+        "1---1",
+		"10",
+	    "EQUIP[Dark Physical Necklace&&Dark Physical Earring]REFINE[shadowEarring,shadowWeapon,shadowPendant--1]---1"
+      ],
+      "matk": [
+        "1---1"
+      ],
+      "atkPercent": [
+        "7===1",
+	    "EQUIP[Dark Physical Necklace&&Dark Physical Earring]REFINE[shadowEarring,shadowWeapon,shadowPendant==23]===1"
+      ]
+    }
+  },
+  "24020": {
+    "id": 24020,
+    "aegisName": "S_Physical_Pendant",
+    "name": "Dark Physical Necklace",
+    "unidName": "Shadow Pendant",
+    "resName": "피지컬펜던트S",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 530,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Accessory",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "hp": [
+		"100",
+		"1---10"
+      ],
+      "hpPercent": [
+        "7===1"
+      ]
+    }
+  },
+  "24018": {
+    "id": 24018,
+    "aegisName": "S_Physical_Earring",
+    "name": "Dark Physical Earring",
+    "unidName": "Shadow Earring",
+    "resName": "피지컬이어링S",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 529,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Accessory",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "hp": [
+		"100",
+		"1---10"
+      ],
+      "aspdPercent": [
+        "7===1"
+      ]
+    }
+  },
+  "1181": {
+    "id": 1181,
+    "aegisName": "Tae_Goo_Lyeon",
+    "name": "Tae Goo Lyeon [2]",
+    "unidName": "Two-Handed Sword",
+    "resName": "태구련",
+    "description": "ดาบนี้เป็นที่รู้จักในชื่อดาบแห่งผู้กล้าตะวันออก\nPerfect Dodge +10\nทุก ๆ การอัพเกรด 1 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 2%\nเมื่ออัพเกรดถึงขั้น 7 ลดปริมาณการใช้ SP 20%\nเมื่ออัพเกรดถึงขั้น 9 ลด Delay หลังใช้สกิล 20%\nเมื่ออัพเกรดถึงขั้น 11, MHP +10%, MSP +10%\n^ffffff_^000000\nเมื่อสวมใส่ร่วมกับ Illusion Boots เพิ่ม Damage ทางกายภาพระยะไกล 3%\nเมื่อ Illusion Tae Goo Lyeon และ Illusion Boots อัพเกรดตั้งแต่ 7 ขึ้นไป ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป ลดระยะเวลาร่ายแบบคงที่ 0.5 วินาที\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เพิ่ม Damage สกิล Dragon Breath, Dragon Breath - WATER 20%\n^ffffff_^000000\nประเภท : ^777777Two-Handed Sword^000000 พลังโจมตี : ^777777250^000000\nน้ำหนัก : ^777777200^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777120^000000\nอาชีพที่ใส่ได้ : ^7777773rd Class Swordman^000000",
+    "slots": 2,
+    "itemTypeId": 1,
+    "itemSubTypeId": 258,
+    "itemLevel": 4,
+    "attack": 250,
+    "defense": null,
+    "weight": 200,
+    "requiredLevel": 90,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Swordman"
+    ],
+    "script": {
+      "perfectDodge": [
+        "10"
+      ],
+      "acd": [
+        "9===20"
+      ]
+    }
+  },
+  "4638": {
+    "id": 4638,
+    "aegisName": "Watcher_Card",
+    "name": "Watcher Card",
+    "unidName": "Watcher Card",
+    "resName": "와쳐카드",
+    "description": "ATK +30.\nWhen receiving physical attacks:\nDrains 5 SP from the user.",
+    "slots": 0,
+    "itemTypeId": 6,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 16,
+    "cardPrefix": "da Agressividade",
+    "script": {
+      "atk": [
+        "30",
+        "10===5"
+      ]
+    }
+  },
     "24062": {
     "id": 24062,
     "aegisName": "S_Bloody_Shoes",
