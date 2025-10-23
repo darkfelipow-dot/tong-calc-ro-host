@@ -1,5 +1,33 @@
-{
-"4587": {
+{  
+ "24062": {
+    "id": 24062,
+    "aegisName": "S_Bloody_Shoes",
+    "name": "Bloody Shadow Shoes",
+    "unidName": "Shadow Shoes",
+    "resName": "블러디슈즈S",
+    "description": "รองเท้าศักดิ์สิทธิ์ช่วยปกป้องผู้สวมใส่ สามารถใส่ชิ้นเดียวได้แต่พลังของมันจะลดลง\nลดดีเลย์หลังใช้สกิล 1%\nอัพเกรดถึง +7, ลดดีเลย์หลังใช้สกิลเพิ่มอีก 1%\nอัพเกรดถึง +9, ลดดีเลย์หลังใช้สกิลเพิ่มอีก 1%\nเมื่อสวมใส่ ^32CD32Reload (Shoes, Shield, Armor) Shadow^000000 ด้วยกัน, ลดดีเลย์หลังใช้สกิล 1%\nเมื่อขั้นอัพเกรดรวมกันมากกว่า 25 ขึ้นไป, ลดดีเลย์หลังใช้สกิล 5%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Shoes^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ :^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 528,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Shoes",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "p_race_demihuman": [
+        "2",
+        "7===1",
+        "9===2"
+      ]
+    }
+  },
+  "4587": {
     "id": 4587,
     "aegisName": "Tiyanak_Card",
     "name": "Tiyanak Card",
@@ -155535,7 +155563,7 @@
   "420020": {
     "id": 420020,
     "aegisName": "Tree_Of_Sprout_LUK",
-    "name": "Young Leaf of World Tree (Luk)",
+    "name": "Temporal Sprout LUK",
     "unidName": "Mask",
     "resName": "입에무는식물줄기",
     "description": "ใบอ่อนบนต้น Yggdrasil อันเป็นแกนกลางของโลกใบนี้ เมื่ออยู่คู่กันกับอุปกรณ์ประเภท Temporal จะเผยพลังลึกลับที่ซ่อนไว้ออกมา\nเมื่อสวมใส่ร่วมกับ Temporal Luk Manteau และ Armadura Temporal SUE/[Not for Sale] Armadura Temporal SUE เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 10% (ยกเว้น Player),\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 14 ขึ้นไป ATK +80\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 10% และ Critical Damage +12%\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เพิ่ม Damage ทางกายภาพระยะใกล้และระยะไกล 10%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777775^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
