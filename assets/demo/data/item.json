@@ -1,4 +1,28 @@
 {  
+"27088": {
+    "id": 27088,
+    "aegisName": "Fury_Hero_Card",
+    "name": "Fury Hero Card",
+    "unidName": "Fury Hero Card",
+    "resName": "광기의모험가카드",
+    "description": "ATK Weapon 2%",
+    "slots": 0,
+    "itemTypeId": 6,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 769,
+    "cardPrefix": "of Thief",
+    "script": {
+    "atkPercent": [
+        "2"
+      ]
+    }
+  },
  "24062": {
     "id": 24062,
     "aegisName": "S_Bloody_Shoes",
@@ -1466,7 +1490,9 @@
     "name": "Destruction Axe [2]",
     "unidName": "Axe",
     "resName": "Sins_Axe",
-    "description": "Can't be destroyed.\r\nAtk + 5%, POW + 2.\r\nIncreases Triple Laser damage by 5%.\r\nIf refine rate is 5 or higher, increases Triple Laser damage by 10%.\r\nIf refine rate is 7 or higher, increases long ranged physical damage by 5%.\r\nIf refine rate is 9 or higher, increases Triple Laser damage by additional 10%.\r\nIf refine rate is 10 or higher, Cri + 10.\r\nIf refine rate is 11 or higher, increases Triple Laser damage by additional 5%, increases critical damage by 20%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases long ranged physical damage by 10%.\r\n[Grade C] Increases physical damage against all size enemies by 10%.\r\n[Grade B] Increases physical damage against all race enemies by 10%.\r\n[Grade A] Increases physical damage against all property enemies by 10%.\r\n\r\nClass: ^777777Axe^000000 Attack: ^777777230^000000\r\nWeight: ^777777440^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Meister^000000",
+    "description": "Can't be destroyed.\r\nAtk + 5%, POW + 2.\r\nIncreases Triple Laser damage by 5%.\r\nIf refine rate is 5 or higher, increases Triple Laser damage by 10%.\r\nIf refine rate is 7 or higher, increases long ranged physical damage by 5%.\r\nIf refine rate is 9 or higher, increases Triple Laser damage by additional 10%.\r\nIf refine rate is 10 or higher, Cri + 10.\r\nIf refine rate is 11 or higher, increases Triple Laser damage by additional 5%, increases critical damage by 20%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases long ranged physical damage by 10%.\r\n[Grade C] Increases physical damage against all size enemies by 10%.\r\n[Grade B] Increases physical damage against all race enemies by 10%.\r\n[Grade A] Increases 
+    
+    damage against all property enemies by 10%.\r\n\r\nClass: ^777777Axe^000000 Attack: ^777777230^000000\r\nWeight: ^777777440^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Meister^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 261,
