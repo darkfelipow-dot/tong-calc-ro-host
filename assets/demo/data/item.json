@@ -1,857 +1,4 @@
-{  
-    "24062": {
-    "id": 24062,
-    "aegisName": "S_Bloody_Shoes",
-    "name": "Bloody Shadow Shoes",
-    "unidName": "Shadow Shoes",
-    "resName": "블러디슈즈S",
-    "description": "รองเท้าศักดิ์สิทธิ์ช่วยปกป้องผู้สวมใส่ สามารถใส่ชิ้นเดียวได้แต่พลังของมันจะลดลง\nลดดีเลย์หลังใช้สกิล 1%\nอัพเกรดถึง +7, ลดดีเลย์หลังใช้สกิลเพิ่มอีก 1%\nอัพเกรดถึง +9, ลดดีเลย์หลังใช้สกิลเพิ่มอีก 1%\nเมื่อสวมใส่ ^32CD32Reload (Shoes, Shield, Armor) Shadow^000000 ด้วยกัน, ลดดีเลย์หลังใช้สกิล 1%\nเมื่อขั้นอัพเกรดรวมกันมากกว่า 25 ขึ้นไป, ลดดีเลย์หลังใช้สกิล 5%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Shoes^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ :^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 10,
-    "itemSubTypeId": 528,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Shoes",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "p_race_demihuman": [
-        "2",
-        "7===1",
-        "9===2"
-      ]
-    }
-  },
-    "4587": {
-    "id": 4587,
-    "aegisName": "Tiyanak_Card",
-    "name": "Tiyanak Card",
-    "unidName": "Tiyanak Card",
-    "resName": "티억넠카드",
-    "description": "CRIT +12 against the Fish, Brute, Doram, Human and Humanoid races.",
-    "slots": 0,
-    "itemTypeId": 6,
-    "itemSubTypeId": 0,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 1,
-    "requiredLevel": null,
-    "location": null,
-    "compositionPos": 136,
-    "cardPrefix": "de Contra-Ataque",
-    "script": {
-      "cri_race_Fish": [
-        "12"
-      ],
-      "cri_race_DemiHuman": [
-        "12"
-      ],
-      "cri_race_Brute": [
-        "12"
-      ]
-    }
-  },
-    "4091": {
-    "id": 4091,
-    "aegisName": "Kobol_Card",
-    "name": "Kobold Card",
-    "unidName": "Kobold Card",
-    "resName": "코볼트카드",
-    "description": "CRIT+4,STR+1",
-    "slots": 0,
-    "itemTypeId": 6,
-    "itemSubTypeId": 0,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 1,
-    "requiredLevel": null,
-    "location": null,
-    "compositionPos": 136,
-    "cardPrefix": "de Contra-Ataque",
-    "script": {
-      "cri": [
-        "4"
-      ],
-      "str": [
-        "1"
-      ]
-    }
-  },
-    "2519 ": {
-    "id": 2519 ,
-    "aegisName": "Morrigane's_Manteau",
-    "name": "Morrigane's Manteau",
-    "unidName": "Hood",
-    "resName": "모리아네의망토",
-    "description": "Luk+2. Perfect Dodge +8",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 515,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 9,
-    "weight": 60,
-    "requiredLevel": 61,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "unusableClass": [
-      "Novice"
-    ],
-    "script": {
-      "luk": [
-        "2"
-      ],
-      "perfectDodge": [
-        "8"
-      ]
-    }
-  },
-	"490731": {
-    "id": 490731,
-    "aegisName": "Growth_RingL_A_G",
-    "name": "Growth Magic Booster Left Ring [1]",
-    "unidName": "Growth_RingL",
-    "resName": "젬스톤아머S",
-    "description": "ASPD +1.Max. SP +5%.Weapon ATK +5%.Ranged physical damage +3%.",
-    "slots": 0,
-    "itemTypeId": 2,
-    "itemSubTypeId": 517,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 0,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "matk": [
-        "10"
-      ],
-	   "m_element_all": [
-        "3"
-      ],
-	   "matkPercent": [
-        "5"
-      ],
-	   "hpPercent": [
-        "5"
-      ]
-    }
-  },	
-	"490732": {
-    "id": 490732,
-    "aegisName": "Growth_RingL_M_G",
-    "name": "Growth Magic Booster Left Ring [1]",
-    "unidName": "Growth_RingM",
-    "resName": "젬스톤아머S",
-    "description": "MATK +10. Max.SP +5%. Magic Damage +5% All Property Magic Damage +3%.",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 517,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 0,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "matk": [
-        "10"
-      ],
-	   "m_element_all": [
-        "3"
-      ],
-	   "matkPercent": [
-        "5"
-      ],
-	   "spPercent": [
-        "5"
-      ]
-    }
-  },
-    "490730": {
-    "id": 490730,
-    "aegisName": "Growth_RingL_A_G",
-    "name": "Growth Attack Booster Left Ring [1]",
-    "unidName": "Growth_RingL",
-    "resName": "젬스톤아머S",
-    "description": "ASPD +1.Max. SP +5%.Weapon ATK +5%.Ranged physical damage +3%.",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 517,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 50,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "aspd": [
-        "1"
-      ],
-	   "p_class_all": [
-        "5"
-      ],
-	   "spPercent": [
-        "5"
-      ],
-	   "melee": [
-        "3"
-      ],
-	   "range": [
-        "3"
-      ]
-    }
-  },
-    "490729": {
-    "id": 490729,
-    "aegisName": "Growth_RingL_A_G",
-    "name": "Growth Attack Booster Left Ring [1]",
-    "unidName": "Growth_RingL",
-    "resName": "젬스톤아머S",
-    "description": "HIT +10.Max. HP +5%.Weapon ATK +5%.Ranged physical damage +3%.",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 517,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 50,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-       "p_class_all": [
-        "5"
-      ],
-	   "hpPercent": [
-        "5"
-      ],
-	   "hit": [
-        "10"
-      ],
-	   "melee": [
-        "3"
-      ],
-	   "range": [
-        "3"
-      ]
-    }
-  },
-    "24084": {
-    "id": 24084,
-    "aegisName": "S_Gemstone_Armor",
-    "name": "Gemstone Shadow Armor",
-    "unidName": "Shadow Armor",
-    "resName": "젬스톤아머S",
-    "description": "CRIT+5 EACH 2 REFINE CRIT +1",
-    "slots": 0,
-    "itemTypeId": 10,
-    "itemSubTypeId": 526,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Armor",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "cri": [
-        "5",
-        "2---1"
-      ]
-    }
-  },
-    "13455": {
-    "id": 13455,
-    "aegisName": "Sinister_Saber",
-    "name": "Vicious Mind Sabre [1]",
-    "unidName": "Sword",
-    "resName": "사념의세이버",
-    "description": "Bonus according to refine up to +15:ATK +(refine × refine).",
-    "slots": 1,
-    "itemTypeId": 1,
-    "itemSubTypeId": 256,
-    "itemLevel": 4,
-    "attack": 135,
-    "defense": null,
-    "weight": 135,
-    "requiredLevel": 160,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "Swordman",
-      "Merchant"
-    ],	
-	"script": {
-        "atk": [
-        "1===1",
-        "2===3",
-        "3===5",
-        "4===7",
-        "5===9",
-        "6===11",
-        "7===13",
-        "8===15",
-        "9===17",
-        "10===19",
-        "11===21",
-        "12===23",
-        "13===25",
-        "14===27",
-        "15===29"
-      ]
-    }
-},
-    
-	"16041": {
-    "id": 16041,
-    "aegisName": "Sinister_Mace",
-    "name": "Vicious Mind Mace [1]",
-    "unidName": "Mace",
-    "resName": "사념의메이스",
-    "description": "Bonus according to refine up to +15:ATK +(refine × refine).",
-    "slots": 1,
-    "itemTypeId": 1,
-    "itemSubTypeId": 256,
-    "itemLevel": 4,
-    "attack": 130,
-    "defense": null,
-    "weight": 130,
-    "requiredLevel": 160,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "Swordman",
-      "Merchant"
-    ],
-    "script": {
-        "atk": [
-        "1===1",
-        "2===3",
-        "3===5",
-        "4===7",
-        "5===9",
-        "6===11",
-        "7===13",
-        "8===15",
-        "9===17",
-        "10===19",
-        "11===21",
-        "12===23",
-        "13===25",
-        "14===27",
-        "15===29"
-      ]
-    }
-  },		
-    "28107": {
-    "id": 28107,
-    "aegisName": "Sinister_Twohand_Axe",
-    "name": "Vicious Mind Two-Handed Axe [1]",
-    "unidName": "Axe",
-    "resName": "사념의투핸드액스",
-    "description": "Bonus according to refine up to +15:ATK +(refine × refine).",
-    "slots": 1,
-    "itemTypeId": 1,
-    "itemSubTypeId": 256,
-    "itemLevel": 4,
-    "attack": 250,
-    "defense": null,
-    "weight": 250,
-    "requiredLevel": 160,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "Swordman",
-      "Merchant"
-    ],
-    "script": {
-        "atk": [
-        "1===1",
-        "2===3",
-        "3===5",
-        "4===7",
-        "5===9",
-        "6===11",
-        "7===13",
-        "8===15",
-        "9===17",
-        "10===19",
-        "11===21",
-        "12===23",
-        "13===25",
-        "14===27",
-        "15===29"
-      ]
-    }
-  },
-	"15096": {
-    "id": 15096,
-    "aegisName": "Hero_Trade_Mai",
-    "name": "Hero Trade Mail [1]",
-    "unidName": "Armor",
-    "resName": "용사의트레이드메일",
-    "description": "HP and SP +5%.ATK and MATK +10.",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 513,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 100,
-    "weight": 50,
-    "requiredLevel": 160,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-	  "hpPercent": [
-        "5"
-      ],
-	  "spPercent": [
-        "5"
-      ],
-	  "atk": [
-        "10"
-      ],
-	  "matk": [
-        "10"
-      ],
-	  "str": [
-        "SUM[str==90]2---1"
-      ],
-      "agi": [
-        "SUM[agi==90]2---1"
-      ],
-      "vit": [
-        "SUM[vit==90]2---1"
-      ],
-      "int": [
-        "SUM[int==90]2---1"
-      ],
-      "dex": [
-        "SUM[dex==90]2---1"
-      ],
-      "luk": [
-        "SUM[luk==90]2---1"
-      ]
-	}
- },
-    "420155": {
-    "id": 420155,
-    "aegisName": "Booster_Scarf_C",
-    "name": "Booster Scarf C",
-    "unidName": "Booster_Scarf_C",
-    "resName": "qwqqwd",
-    "description": "CRI -3 . Crit DMG +5%",
-    "slots": 0,
-    "itemTypeId": 2,
-    "itemSubTypeId": 512,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 1,
-    "requiredLevel": 1,
-    "location": "Lower",
-    "compositionPos": null,
-	 "usableClass": [
-      "all"    
-	  ],
-    "script": {
-      "cri": [
-        "3"
-      ],
-	  "criDmg": [
-        "5"
-      ]
-    }
-  },	
-    "420154": {
-    "id": 420154,
-    "aegisName": "Booster_Scarf_B",
-    "name": "Booster Scarf B",
-    "unidName": "Booster_Scarf_B",
-    "resName": "qwqqwd",
-    "description": "VCT -3 . Magic DMG all Propierity",
-    "slots": 0,
-    "itemTypeId": 2,
-    "itemSubTypeId": 512,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 1,
-    "requiredLevel": 1,
-    "location": "Lower",
-    "compositionPos": null,
-	 "usableClass": [
-      "all"    
-	  ],
-    "script": {
-      "vct": [
-        "3"
-      ],
-	  "matkPercent": [
-        "5"
-      ]
-    }
-  },
-    "420153": {
-    "id": 420153,
-    "aegisName": "Booster_Scarf_A",
-    "name": "Booster Scarf A",
-    "unidName": "Booster_Scarf_A",
-    "resName": "qwqqwd",
-    "description": "VCT -3 . Melle DMG +5% ,Ranged DMG +5%",
-    "slots": 0,
-    "itemTypeId": 2,
-    "itemSubTypeId": 512,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 1,
-    "requiredLevel": 1,
-    "location": "Lower",
-    "compositionPos": null,
-	 "usableClass": [
-      "all"    
-	  ],
-    "script": {
-      "vct": [
-        "3"
-      ],
-	  "melee": [
-        "5"
-      ],
-	  	  "range": [
-        "5"
-      ]
-    }
-  },
-	"4468": {
-    "id": 4468,
-    "aegisName": "Pinguicula_Dark_Card",
-    "name": "Dark Pinguicula Card",
-    "unidName": "Pinguicula_Dark_Card",
-    "resName": "핀귀큘라다크카드",
-    "description": "+10 atk",
-    "slots": 0,
-    "itemTypeId": 6,
-    "itemSubTypeId": 0,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 1,
-    "requiredLevel": null,
-    "location": null,
-    "compositionPos": 769,
-    "cardPrefix": "Hera Venenosa",
-    "script": {
-      "atk": [
-        "10",
-        "1---5"
-      ]
-    }
-  },
-	"20923": {
-    "id": 20923,
-    "aegisName": "Goibne_Shoulder_IL",
-    "name": "Illusion Goibne's Spaulders [1]",
-    "unidName": "Garmet",
-    "resName": "흰날개의",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 515,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 47,
-    "weight": 100,
-    "requiredLevel": 130,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-	  "vit": [
-        "1"
-      ],
-	  "Mdef": [
-        "2"
-      ],
-	  "p_element_water": [
-        "7===5",
-		"9===10"
-      ],
-	  "p_element_earth": [
-        "7===5",
-		"9===10"
-      ],
-	  "p_element_fire": [
-        "7===5",
-		"9===10"
-      ],
-	  "p_element_wind": [
-        "7===5",
-		"9===10"
-      ]
-	}
-},
-	"22192": {
-    "id": 22192,
-    "aegisName": "Goibne_Boots_IL",
-    "name": "Illusion Goibne's Greaves [1]",
-    "unidName": "Shoes",
-    "resName": "흰날개의슈츠",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 516,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 42,
-    "weight": 130,
-    "requiredLevel": 130,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-	  "hpPercent": [
-        "5"
-      ],
-	  "spPercent": [
-        "5"
-      ],
-	  "vct": [
-        "7===5"
-      ],
-	  "range": [
-        "9===10"
-      ],
-	  "melee": [
-        "9===10"
-      ]
-	}
-},	
-"15348": {
-    "id": 15348,
-    "aegisName": "Goibne_Armor_IL",
-    "name": "Illusion Goibne's Armor [1]",
-    "unidName": "Armor",
-    "resName": "흰날개의슈츠",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 513,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 158,
-    "weight": 350,
-    "requiredLevel": 130,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-	  "hpPercent": [
-        "10"
-      ],
-	  "def": [
-        "7===50",
-		"9===100"
-      ]
-	}
-},	
- "450445": {
-    "id": 450445,
-    "aegisName": "Growth_Armor_A_G",
-    "name": "Growth Attack Booster Armor [1]",
-    "unidName": "Growth Attack Booster Armor",
-    "resName": "GrowthaArmor",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 513,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 100,
-    "weight": 0,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-	  "atk": [
-        "50",
-		"level:40(1-120)---10"
-      ],
-	  "acd": [
-        "SUM[level==130]===5"
-      ]
-	}
- },
- "450446": {
-    "id": 450446,
-    "aegisName": "Growth_Armor_M_G",
-    "name": "Growth Magic Booster Armor [1]",
-    "unidName": "Growth Magic Booster Armor",
-    "resName": "GrowthArmor",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 513,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 100,
-    "weight": 0,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-	  "matk": [
-        "50",
-		"level:40(1-120)---10"
-      ],
-	  "acd": [
-        "SUM[level==130]===5"
-      ]
-	}
- },
-  "24371": {
-    "id": 24371,
-    "aegisName": "S_MortalBlow_Earring",
-    "name": "Mortal Blow Shadow Earring",
-    "unidName": "Shadow Earring",
-    "resName": "웨폰쉐도우",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 10,
-    "itemSubTypeId": 529,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Accessory",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-	  "hp": [
-        "1---10"
-      ],
-	  "criDmg": [
-        "1",
-		"7===1",
-		"9===1"
-      ]
-    }
-  },
-  "24372": {
-    "id": 24372,
-    "aegisName": "S_MortalBlow_Pendent",
-    "name": "Mortal Blow Shadow Pendant",
-    "unidName": "Shadow Pendant",
-    "resName": "모탈블로우펜던트S",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 10,
-    "itemSubTypeId": 530,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Accessory",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "hp": [
-        "1---10"
-      ],
-	  "criDmg": [
-        "1",
-		"7===1",
-		"9===1"
-      ]
-    }
-  },
-  "24370": {
-    "id": 24370,
-    "aegisName": "S_MortalBlow_Weapon",
-    "name": "Mortal Blow Shadow Weapon",
-    "unidName": "Shadow Weapon",
-    "resName": "웨폰쉐도우",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 10,
-    "itemSubTypeId": 280,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Weapon",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "atk": [
-        "1---1"
-      ],
-      "matk": [
-        "1---1"
-      ],
-	  "criDmg": [
-        "2",
-		"7===2",
-		"9===3",
-		"EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]REFINE[shadowEarring,shadowWeapon,shadowPendant==0]===2",
-		"EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]REFINE[shadowEarring,shadowWeapon,shadowPendant==25]===10"
-     ]
-    }
-  },
+{
   "645": {
     "id": 645,
     "aegisName": "Center_Potion",
@@ -1467,9 +614,7 @@
     "name": "Destruction Axe [2]",
     "unidName": "Axe",
     "resName": "Sins_Axe",
-    "description": "Can't be destroyed.\r\nAtk + 5%, POW + 2.\r\nIncreases Triple Laser damage by 5%.\r\nIf refine rate is 5 or higher, increases Triple Laser damage by 10%.\r\nIf refine rate is 7 or higher, increases long ranged physical damage by 5%.\r\nIf refine rate is 9 or higher, increases Triple Laser damage by additional 10%.\r\nIf refine rate is 10 or higher, Cri + 10.\r\nIf refine rate is 11 or higher, increases Triple Laser damage by additional 5%, increases critical damage by 20%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases long ranged physical damage by 10%.\r\n[Grade C] Increases physical damage against all size enemies by 10%.\r\n[Grade B] Increases physical damage against all race enemies by 10%.\r\n[Grade A] Increases 
-    
-    damage against all property enemies by 10%.\r\n\r\nClass: ^777777Axe^000000 Attack: ^777777230^000000\r\nWeight: ^777777440^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Meister^000000",
+    "description": "Can't be destroyed.\r\nAtk + 5%, POW + 2.\r\nIncreases Triple Laser damage by 5%.\r\nIf refine rate is 5 or higher, increases Triple Laser damage by 10%.\r\nIf refine rate is 7 or higher, increases long ranged physical damage by 5%.\r\nIf refine rate is 9 or higher, increases Triple Laser damage by additional 10%.\r\nIf refine rate is 10 or higher, Cri + 10.\r\nIf refine rate is 11 or higher, increases Triple Laser damage by additional 5%, increases critical damage by 20%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases long ranged physical damage by 10%.\r\n[Grade C] Increases physical damage against all size enemies by 10%.\r\n[Grade B] Increases physical damage against all race enemies by 10%.\r\n[Grade A] Increases physical damage against all property enemies by 10%.\r\n\r\nClass: ^777777Axe^000000 Attack: ^777777230^000000\r\nWeight: ^777777440^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Meister^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 261,
@@ -3224,10 +2369,10 @@
   "1847": {
     "id": 1847,
     "aegisName": "Iron_Nail_K",
-    "name": "Ancestral Claw [2]",
+    "name": "Iron Nail [2]",
     "unidName": "Claw",
     "resName": "아이언네일",
-    "description": "สนับมือที่กล่าวกันว่าฮีโร่โบราณได้เคยใช้\nถึงจะดูต่างจากสนับมือที่เคยเห็นทั่วไป แต่ความสามารถในการล้มศัตรูได้ในหมัดเดียวทำให้สนับมือนี้น่าสนใจเป็นอย่างมาก และดูเหมือนว่าจะตอบรับกันกับ Ancient Boots\nทุกๆ การอัพเกรด 2 ขั้น ATK + 10.\nทุกๆ การอัพเกรด 3 ขั้น เพิ่มพลังโจมตีทางกายภาพระยะไกล 4%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damge ของสกิล [Rampage Blast] 10%\nเมื่ออัพเกรดถึงขั้น 11 ลด Cooldown ของสกิล [Rampage Blast] 1 วินาที\nเมื่อสวมใส่ร่วมกันกับ Ancient Hero Boots เมื่อทำการโจมตีทางกายภาพจะมีโอกาส (3%) เพิ่ม STR+20, ATK+ 15% เป็นเวลา 7 วินาที\nประเภท : ^777777Knuckle^000000 พลังโจมตี : ^777777180^000000\nน้ำหนัก : ^777777100^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Sura^000000",
+    "description": "สนับมือที่กล่าวกันว่าฮีโร่โบราณได้เคยใช้\nถึงจะดูต่างจากสนับมือที่เคยเห็นทั่วไป แต่ความสามารถในการล้มศัตรูได้ในหมัดเดียวทำให้สนับมือนี้น่าสนใจเป็นอย่างมาก และดูเหมือนว่าจะตอบรับกันกับ Ancient Hero Boots\nทุกๆ การอัพเกรด 2 ขั้น ATK + 10.\nทุกๆ การอัพเกรด 3 ขั้น เพิ่มพลังโจมตีทางกายภาพระยะไกล 4%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damge ของสกิล [Rampage Blast] 10%\nเมื่ออัพเกรดถึงขั้น 11 ลด Cooldown ของสกิล [Rampage Blast] 1 วินาที\nเมื่อสวมใส่ร่วมกันกับ Ancient Hero Boots เมื่อทำการโจมตีทางกายภาพจะมีโอกาส (3%) เพิ่ม STR+20, ATK+ 15% เป็นเวลา 7 วินาที\nประเภท : ^777777Knuckle^000000 พลังโจมตี : ^777777180^000000\nน้ำหนัก : ^777777100^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Sura^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 268,
@@ -3947,7 +3092,7 @@
   "2048": {
     "id": 2048,
     "aegisName": "Iron_Staff",
-    "name": "Iron Staff [2]",
+    "name": "Aeon Staff [2]",
     "unidName": "Staff",
     "resName": "아이온스태프",
     "description": "ไม้เท้าที่ทำขึ้นจากโลหะลึกลับของโลกอื่น\nเล่าลือกันว่านักเวทย์ผู้ใหญ่ในอดีตเป็นคนทำขึ้น\nดูมีความกลมกลืนเข้ากับ Ancient Hero Boots\nMATK +200\nไม่สามารถทำลายได้\nทุกๆ การอัพเกรด 2 ขั้น MATK +10\nทุกๆ การอัพเกรด 3 ขั้น เพิ่มดาเมจของ Earth Strain 12%\nเมื่ออัพเกรดถึงขั้น 9 ลด Variable Cast Time 10%\nเมื่ออัพเกรดถึงขั้น 11 ลด Cooldown ของ Earth Strain 1 วินาที\nเมื่อโจมตีทางเวทย์ระหว่างสวมใส่ร่วมกับ Ancient Hero Boots มีโอกาสที่ INT +20, MATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Two-Handed Staff^000000 พลังโจมตี : ^777777100^000000\nน้ำหนัก : ^77777780^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Warlock^000000",
@@ -5051,7 +4196,7 @@
   "2576": {
     "id": 2576,
     "aegisName": "Bravery_Bag",
-    "name": "Heroic Backpack [1]",
+    "name": "Bravery Bag [1]",
     "unidName": "Garment",
     "resName": "모험가배낭",
     "description": "กระเป๋าขนาดเล็กที่เหมาะกับนักผจญภัย บรรจุสิ่งของต่างๆมากมายอยู่ภายใน\nสามารถใช้ [Greed] Lv.1\nหากอัพเกรดตั้งแต่ระดับ + 7 ,\nSTR พื้นฐาน ตั้งแต่ 90 ขึ้นไป , เพิ่ม ATK+20 (หากระดับการอัพเกรดตั้งแต่ + 9 , เพิ่ม ATK + 10)\nINT พื้นฐาน ตั้งแต่ 90 ขึ้นไป , เพิ่ม MATK+30 (หากระดับการอัพเกรดตั้งแต่ + 9 , เพิ่ม MATK + 20)\nVIT พื้นฐาน ตั้งแต่ 90 ขึ้นไป , เพิ่มพลังป้องกันไร้ธาตุ + 5%(หากระดับการอัพเกรดตั้งแต่ + 9, เพิ่มพลังป้องกันไร้ธาตุ + 5%)\nAGI พื้นฐาน ตั้งแต่ 90 ขึ้นไป , เพิ่ม ASPD 8%(หากระดับการอัพเกรดตั้งแต่ + 9, ASPD +1)\nDEX พื้นฐาน ตั้งแต่ 90 ขึ้นไป , เพิ่มพลังโจมตีระยะไกลขึ้น 5%(หากระดับการอัพเกรดตั้งแต่ + 9, เพิ่มพลังโจมตีระยะไกล + 5%)\nLUK พื้นฐาน ตั้งแต่ 90 ขึ้นไป , เพิ่ม Critical Damage + 10%(หากระดับการอัพเกรดตั้งแต่ + 9, เพิ่ม Critical Damage +5%)\nประเภท : ^777777Garment^000000 พลังป้องกัน : ^77777720^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
@@ -18079,7 +17224,7 @@
   "13345": {
     "id": 13345,
     "aegisName": "Humma_Clear",
-    "name": "Huuma Ancestral Shuriken [2]",
+    "name": "Huuma Shuriken Clearness [2]",
     "unidName": "Huuma Shuriken",
     "resName": "미라쥬풍마수리검",
     "description": "Shuriken ที่นินจาผู้โด่งดังในตำนานใช้งาน\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nไม่สามารถทำลายได้\n\nทุก ๆ การอัพเกรด 2 ขั้น ATK +10\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 2%\nเมื่ออัพเกรดถึงขั้น 7 เพิ่ม Damage สกิล Swirling Petal 30%\nเมื่ออัพเกรดถึงขั้น 9 ลด Cooldown สกิล Swirling Petal 1 วินาที\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage ทางกายภาพต่อศัตรูธาตุ Fire, Shadow 15%, เพิ่ม Damage ทางกายภาพต่อศัตรูประเภท Undead, Demon 20%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ มีโอกาสที่ STR +20, เพิ่ม Damage ทางกายภาพระยะไกล 10% เป็นเวลา 7 วินาที\nประเภท : ^777777Huuma Shuriken^000000 พลังโจมตี : ^777777230^000000\nน้ำหนัก : ^777777130^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Ninja^000000",
@@ -18422,7 +17567,7 @@
   "13485": {
     "id": 13485,
     "aegisName": "Sword_Of_Bluefire",
-    "name": "Ancestral Sabre [2]",
+    "name": "Red Lotus Sword [2]",
     "unidName": "One-Handed Sword",
     "resName": "홍련의검",
     "description": "เมื่อดึงออกจากฝักดาบ จะมีเปลวไฟสีน้ำเงินลุกขึ้นมา\nดูมีความกลมกลืนเข้ากับ Ancient Hero Boots\nทุกๆ การอัพเกรด 2 ขั้น ATK +10\nทุกๆ การอัพเกรด 3 ขั้น เพิ่มพลังโจมตีทางกายภาพระยะไกล 4%\nเมื่ออัพเกรดถึงขั้น 9 ลดปริมาณการใช้ SP ของ Cart Cannon 10%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่มดาเมจของ Cart Cannon 15%\nเมื่อโจมตีทางกายภาพระหว่างสวมใส่ร่วมกับ Ancient Hero Boots มีโอกาสที่ DEX +20, พลังโจมตีทางกายภาพระยะไกล +20% เป็นเวลา 7 วินาที\nประเภท : ^777777Sword^000000 พลังโจมตี : ^777777180^000000\nน้ำหนัก : ^77777780^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Generic^000000",
@@ -19113,11 +18258,12 @@
       "all"
     ],
     "script": {
-      "acd": [
-        "SUM[level==130]===5"
+      "vit": [
+        "6",
+        "SUM[level==130]===4"
       ],
-      "vct": [
-        "10"
+      "hpPercent": [
+        "3---4"
       ]
     }
   },
@@ -19168,7 +18314,7 @@
   "15147": {
     "id": 15147,
     "aegisName": "Robe_Of_Vituperation",
-    "name": "Abusive Robe [1]",
+    "name": "Robe Of Vituperation [1]",
     "unidName": "Armor",
     "resName": "아첨의로브",
     "description": "เสื้อผ้าของผู้คนที่สนทนาแล้วทำให้เกิดผลกระทบร้ายแรงถึงจิตวิญญาณ\nสามารถใช้งาน Improve Concentration Level 1\nไม่คิด Physical DEF ของศัตรูประเภท Demi-Human, Demon, Undead ทีละ 4% เพิ่มเติมต่อระดับ Refine Armor 1 ระดับ\nเมื่อติดตั้งร่วมกับ Morrigane's Manteau\nไม่คิด Physical DEF ของศัตรูประเภท Demi-Human, Demon, Undead 15%\nLUK + 3, เพิ่ม LUK ทีละ + 1 ต่อระดับ Refine Armor 1 ระดับ \nCRI + 10, เพิ่ม CRI ทีละ + 1 ต่อระดับ Refine Armor 1 ระดับ \nเมื่อติดตั้งร่วมกับ Valkyrian Manteau\nไม่คิด Physical DEF ของศัตรูประเภท Demi-Human, Demon, Undead 15%\nMHP + 10%, เพิ่ม MHP ทีละ + 1% ต่อระดับ Refine Armor 1 ระดับ \nATK + 2%, เพิ่ม ATK ทีละ + 1% ต่อระดับ Refine Armor 1 ระดับ \nประเภท : ^777777Armor^000000 ป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777100^000000\nติดตั้ง : ^777777ทุกอาชีพ^000000",
@@ -19580,7 +18726,7 @@
   "15346": {
     "id": 15346,
     "aegisName": "Overwhelm_Luk_Armor",
-    "name": "Armadura Temporal SUE [1]",
+    "name": "Unexpected Fortune Armor [1]",
     "unidName": "Armor",
     "resName": "치우의갑옷",
     "description": "ชุดเกราะแสงสีม่วงที่แฝงไปด้วยความโชคดีที่เกินความคาดหมายเอาไว้ \nATK + 50. \nทุกอัพเกรด 3 ขั้น เพิ่ม Critical Damage 2%\nเมื่ออัพเกรดขั้น 7, เผิกเฉยต่อพลังป้องกันทางกายภาพของมอนสเตอร์ เผ่า Brute, เผ่า Demon 30% \nเมื่ออัพเกรดขั้น 9, เพิ่ม Damage ทางกายภาพที่สร้างต่อมอนสเตอร์ เผ่า Brute, เผ่า Demon 10%\nเมื่ออัพเกรดขั้น 11, เพิ่ม Damage ทางกายภาพที่สร้างต่อมอนสเตอร์ธาตุ Wind และธาตุ Earth 10%\nเมื่อสวมใส่รวมกับ Temporal Luk Boots[1] หรือ Modified Luk Boots[1], \nเพิ่ม Critical Damage 10%\nเมื่อขั้นอัพเกรดรวมกันมากกว่า 21 ขั้น \nเผิกเฉยต่อพลังป้องกันทางกายภาพของมอนสเตอร์ เผ่า Brute, เผ่า Demon เพิ่มอีก 20% \nประเภท : ^777777Armor^000000 พลังป้องกัน : ^777777120^000000\nน้ำหนัก : ^777777200^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -23090,7 +22236,7 @@
   "18170": {
     "id": 18170,
     "aegisName": "Narcis_Bow",
-    "name": "Ancestral Arc [2]",
+    "name": "Narcissus Bow [2]",
     "unidName": "Bow",
     "resName": "Neev_Bow_Of_Rogue",
     "description": "คันธนูของนักรบผู้กล้าหาญในการต่อสู้สมัยอดีตกาล\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nทุกๆ การอัพเกรด 2 ขั้น ATK +10 \nทุกๆ การอัพเกรด 3 ขั้น เพิ่มความเสียหายจากการโจมตีกายภาพ ระยะไกล แรงขึ้น 4%\nเมื่อค่าอัพเกรดถึงขั้น 9, เพิ่มดาเมจ Severe Rainstorm 10%\nเมื่อค่าอัพเกรดถึงขั้น 11, ลด Cooldown ของ Severe Rainstorm 2 วินาที\nเมื่อโจมตีทางกายภาพระหว่างสวมใส่ร่วมกับ Ancient Hero Boots มีโอกาสที่ DEX +20, พลังโจมตีของธนู +20% เป็นเวลา 7 วินาที\nประเภท : ^777777Bow^000000 พลังโจมตี : ^777777180^000000\nน้ำหนัก : ^777777100^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Archer Class 3, Shadow Chaser^000000",
@@ -26702,7 +25848,7 @@
   "19300": {
     "id": 19300,
     "aegisName": "Dog_Officer",
-    "name": "Dog Officer [1]",
+    "name": "Ruff Officer [1]",
     "unidName": "Hat",
     "resName": "Dog_Officer",
     "description": "หมวกนายทหารสุดเท่ที่ผสมผสานกับหูน้องหมาอันแสนน่ารัก\nทุกๆ การอัพเกรด 2 ขั้น, ATK + 15.\nเมื่ออัพเกรดถึงขั้น 7, เพิ่ม ATK + 30 เพิ่มเติม \nเมื่ออัพเกรดถึงขั้น 9, ATK + 5%, ASPD + 1.\nเมื่ออัพเกรดถึงขั้น 11, Critical Damage 3%, เพิ่มพลังการโจมตีทางกายภาพระยะไกล 3% \nเมื่ออัพเกรดมากกว่าขั้น 10 ขึ้นไป, ทุกๆ การอัพเกรด 1 ขั้น ลด Fixed Cast Time 0.1 วินาที (สูงสุดถึงการอัพเกรดขั้นที่ 15) \nเมื่อสวมใส่ร่วมกันกับ Thanatos Katar, ทุกๆ การอัพเกรด 2 ขั้นของอาวุธ เพิ่ม ATK +20 \nเมื่อสวมใส่ร่วมกันกับ Dark Rose, ทุกๆ การอัพเกรด 2 ขั้นของอาวุธ เพิ่ม Damage ของ Fire Dance 6% \nเมื่อสวมใส่ร่วมกันกับ Tornado Axe, ทุกๆ การอัพเกรด 2 ขั้นของอาวุธ เพิ่ม Damage ของ Tornado Axe 15%  \nประเภท : ^777777Headgear^000000 พลังป้องกัน :  ^77777735^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก :  ^77777740^000000\nเลเวลที่ต้องการ: ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -26723,7 +25869,7 @@
       "atk": [
         "2---15",
         "7===30",
-        "EQUIP[Thanos Katar]REFINE[weapon==2]---20"
+        "EQUIP[Thanatos Katar]REFINE[weapon==2]---20"
       ],
       "atkPercent": [
         "9===5"
@@ -28336,7 +27482,7 @@
   "20749": {
     "id": 20749,
     "aegisName": "Manteau_Of_Fallen_",
-    "name": "Cloak of the Forgotten [1]",
+    "name": "Fallen Warrior Manteau [1]",
     "unidName": "Garment",
     "resName": "전사자의망토_",
     "description": "เสื้อคลุมในตำนานที่ว่ากันว่าถูกสวมใส่โดยเหล่านักรบผู้กล้าที่ออกไปต่อสู้ และสละชีวิตในสนามรบ\nทุกๆ การอัพเกรด 2 ขั้น เพิ่ม Max HP และ Max SP ทีละ 1%\nเมื่อ STR พื้นฐานตั้งแต่ 90 ขึ้นไป, ATK + 10 (ทุกๆ การอัพเกรด 1 ขั้น ATK +2)\nเมื่อ INT พื้นฐานตั้งแต่ 90 ขึ้นไป, MATK + 20 (ทุกๆ การอัพเกรด 1 ขั้น MATK + 3)\nเมื่อ VIT พื้นฐานตั้งแต่ 90 ขึ้นไป, เพิ่มความต้านทานจากการโจมตีธาตุ Neutral 3% (เมื่ออัพเกรดถึงขั้น 8 ขึ้นไป เพิ่มอีก 3% และเมื่ออัพเกรดถึงขั้น 10 ขึ้นไป เพิ่มอีก 4%)\nเมื่อ AGI พื้นฐานตั้งแต่ 90 ขึ้นไป, ASPD + 3% (ทุกๆ การอัพเกรด 2 ขั้น ASPD + 1%)\n(เมื่ออัพเกรดถึงขั้น 10 ขึ้นไป ASPD + 1)\nเมื่อ DEX พื้นฐานตั้งแต่ 90 ขึ้นไป, เพิ่มค่าโจมตีระยะไกล 3% (ทุกๆ การอัพเกรด 2 ขั้น เพิ่มอีก 1%)\nเมื่อ LUK พื้นฐานตั้งแต่ 90 ขึ้นไป เพิ่ม Critical Damage 5% (ทุกๆ การอัพเกรด 1 ขั้น เพิ่มอีก 1%)\nประเภท : ^777777Garment^000000 พลังป้องกัน : ^77777730^000000\nน้ำหนัก : ^77777760^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -29675,6 +28821,62 @@
       ]
     }
   },
+  "21016": {
+    "id": 21016,
+    "aegisName": "Sinister_Twohand_Sword",
+    "name": "Vicious Mind Two-Handed Sword [1]",
+    "unidName": "Two-Handed Sword",
+    "resName": "사념의투핸드소드",
+    "description": "ดาบสองมือที่เต็มไปด้วยความคิดมุ่งร้าย\nเพิ่ม ATK เท่ากับ (ระดับ Refine*ระดับ Refine) (สามารถ Refine ได้ถึง 15)\nเพิ่ม MATK เท่ากับ (ระดับ Refine*ระดับ Refine)/2 (สามารถ Refine ได้ถึง 15)\nประเภท : ^777777Two-Handed Sword^000000 โจมตี : ^777777220^000000\nน้ำหนัก : ^777777220^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777160^000000\nติดตั้ง : ^777777อาชีพ Swordman^000000",
+    "slots": 1,
+    "itemTypeId": 1,
+    "itemSubTypeId": 258,
+    "itemLevel": 4,
+    "attack": 220,
+    "defense": null,
+    "weight": 220,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Swordman"
+    ],
+    "script": {
+      "atk": [
+        "1===1",
+        "2===3",
+        "3===5",
+        "4===7",
+        "5===9",
+        "6===11",
+        "7===13",
+        "8===15",
+        "9===17",
+        "10===19",
+        "11===21",
+        "12===23",
+        "13===25",
+        "14===27",
+        "15===29"
+      ],
+      "matk": [
+        "2===2",
+        "3===2",
+        "4===4",
+        "5===4",
+        "6===6",
+        "7===6",
+        "8===8",
+        "9===8",
+        "10===10",
+        "11===10",
+        "12===12",
+        "13===12",
+        "14===14",
+        "15===14"
+      ]
+    }
+  },
   "21018": {
     "id": 21018,
     "aegisName": "Two_Hand_Spear_170",
@@ -29708,7 +28910,7 @@
   "21038": {
     "id": 21038,
     "aegisName": "Oriental_Sword",
-    "name": "Ancestral Sword [2]",
+    "name": "Oriental Sword [2]",
     "unidName": "Two-Handed Sword",
     "resName": "오니마루",
     "description": "ดาบโบราณที่ว่ากันว่าสามารถกำจัดได้แม้กระทั่งดวงวิญญาณอันชั่วร้ายจากประเทศฝั่งตะวันออก\nดูมีความกลมกลืนเข้ากับ Ancient Hero Boots\nทุกๆ การอัพเกรด 2 ขั้น ATK + 10\nทุกๆ การอัพเกรด 3 ขั้น เพิ่มดาเมจ Sonic Wave 10% \nเมื่ออัพเกรดถึงขั้น 9 และโจมตีทางกายภาพระยะใกล้ มีโอกาสสูงที่จะร่ายสกิล Sonic Wave Lv.2 (ถ้าระดับสกิลสูงกว่า จะใช้งานตามระดับสูงสุดที่เรียนรู้)\nเมื่ออัพเกรดถึงขั้น 11 อาวุธจะไม่ถูกทำลาย\nเมื่อโจมตีทางกายภาพระหว่างสวมใส่ร่วมกับ Ancient Hero Boots มีโอกาสที่ STR + 20, ATK + 15% เป็นเวลา 7 วินาที\nประเภท : ^777777Two-Handed Sword^000000 พลังโจมตี : ^777777180^000000\nน้ำหนัก : ^777777100^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Rune Knight^000000",
@@ -38109,10 +37311,10 @@
         "EQUIP[Temporal Transcendent Shadow Weapon&&Temporal Transcendent Shadow Shield&&Temporal Transcendent Shadow Shoes&&Temporal Transcendent Shadow Earring&&Temporal Transcendent Shadow Pendant]10"
       ],
       "p_pene_race_all": [
-        "EQUIP[Temporal Transcendent Shadow Weapon&&Temporal Transcendent Shadow Shield&&Temporal Transcendent Shadow Shoes&&Temporal Transcendent Shadow Earring&&Temporal Transcendent Shadow Pendant]40"
+        "EQUIP[Temporal Transcendent Shadow Weapon&&Temporal Transcendent Shadow Shield&&Temporal Transcendent Shadow Shoes&&Temporal Transcendent Shadow Earring&&Temporal Transcendent Shadow Pendant]70"
       ],
       "m_pene_race_all": [
-        "EQUIP[Temporal Transcendent Shadow Weapon&&Temporal Transcendent Shadow Shield&&Temporal Transcendent Shadow Shoes&&Temporal Transcendent Shadow Earring&&Temporal Transcendent Shadow Pendant]40"
+        "EQUIP[Temporal Transcendent Shadow Weapon&&Temporal Transcendent Shadow Shield&&Temporal Transcendent Shadow Shoes&&Temporal Transcendent Shadow Earring&&Temporal Transcendent Shadow Pendant]70"
       ]
     },
     "usableClass": [
@@ -52422,7 +51624,7 @@
   "26118": {
     "id": 26118,
     "aegisName": "Shadow_Staff_K",
-    "name": "Ancestral Staff [2]",
+    "name": "Shadow Staff [2]",
     "unidName": "One-handed Staff",
     "resName": "쉐도우스태프",
     "description": "คทาเก่าแก่ที่กล่าวกันว่าฮีโร่โบราณได้เคยใช้\nถึงจะดูเก่าแต่พลังเวทที่หลับใหลอยู่ภายในดูจะตอบสนองกับ Ancient Hero Boots\nMATK + 155.\nไม่สามารถทำลายได้\nทุกๆ การอัพเกรด 2 ขั้น MATK+ 10.\nทุกๆ การอัพเกรด 3 ขั้น เพิ่ม Damage ของสกิล [Earth Grave] 12%\nเมื่ออัพเกรดถึงขั้น 9 ลด Variable Cast Time 10%\nเมื่ออัพเกรดถึงขั้น 11 ลด Cooldown ของสกิล [Psychic Wave] 1 วินาที\nเมื่อสวมใส่ร่วมกันกับ Ancient Hero Boots เมื่อทำการโจมตีทางเวทมนตร์จะมีโอกาส (3%) เพิ่ม INT + 20, MATK+ 15% เป็นเวลา 7 วินาที\nประเภท : ^777777One-handed Staff^000000 พลังโจมตี : ^77777740^000000\nน้ำหนัก : ^77777750^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Sorcerer^000000",
@@ -52635,7 +51837,7 @@
   "26154": {
     "id": 26154,
     "aegisName": "SoulWeight",
-    "name": "Ancestral Pendulum [2]",
+    "name": "Spirit Pendulum [2]",
     "unidName": "Rod",
     "resName": "케라우노스",
     "description": "อาวุธลูกตุ้มสังหารที่มีพลังในการดูดกลืนดวงวิญญาณ ว่ากันว่า Soul Reaper ที่มีพลังวิเศษผู้หนึ่งเคยใช้\nและถ้าเอามือไปแตะมัน จะได้ยินเสียงโหยหวนของเหล่าวิญญาณ\nดูกลมกลืนเข้ากับ Ancient Hero Boots\n\nMATK +160\nทุก ๆ การอัพเกรด 2 ขั้น MATK +10 \nทุก ๆ การอัพเกรด 3 ขั้น MSP +2%\nเมื่ออัพเกรดถึงขั้น 7 เพิ่ม Damage สกิล Espa 15%\nเมื่ออัพเกรดถึงขั้น 9 ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage สกิล Eswhoo 20%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางเวทมนตร์ มีโอกาสที่ INT +20, MATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777One-Handed Staff^000000 พลังโจมตี : ^77777770^000000\nน้ำหนัก : ^777777110^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Soul Reaper^000000",
@@ -57896,7 +57098,7 @@
   "28039": {
     "id": 28039,
     "aegisName": "Shiver_Katar_K",
-    "name": "Ancestral Katar [2]",
+    "name": "Shiver Katar [2]",
     "unidName": "Katar",
     "resName": "전율의카타르",
     "description": "Katar ที่ว่ากันว่านักลอบสังหารอันเลื่องชื่อในอดีตใช้ มีพลังการทำลายล้างสูง\nดูกลมกลืนเข้ากับ Ancient Hero Boots \n\nทุก ๆ การอัพเกรด 2 ขั้น, ATK + 10\nทุก ๆ การอัพเกรด 3 ขั้น, เพิ่ม Critical Damage 4%\nเมื่ออัพเกรดถึงขั้น 7, เพิ่ม Damage ทางกายภาพแก่ศัตรูประเภท Demi-Human, Brute 15%\nเมื่ออัพเกรดถึงขั้น 9, ASPD 10%)\nเมื่ออัพเกรดถึงขั้น 11, เพิ่ม Damage ทางกายภาพแก่ศัตรูประเภท Demi-Human, Brute 20% เพิ่มเติม\nเมื่อโจมตีทางกายภาพระหว่างสวมใส่ร่วมกับ Ancient Hero Boots, มีโอกาสที่ LUK +20, Critical Damage +10% เป็นเวลา 7 วินาที \n\nประเภท : ^777777Katar^000000 พลังโจมตี : ^777777185^000000\nน้ำหนัก : ^777777120^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Guillotine Cross Cls^000000",
@@ -58251,7 +57453,7 @@
   "28130": {
     "id": 28130,
     "aegisName": "Avenger",
-    "name": "Ancestral cleaver [2]",
+    "name": "Avenger [2]",
     "unidName": "Axe",
     "resName": "어벤저투핸드액스",
     "description": "ขวานสองมือที่เล่าขานกันว่าถูกทำขึ้นเพื่อล้างแค้นโดยช่างตีเหล็กที่มีฝีมือ\nดูกลมกลืนเข้ากับ Ancient Hero Boots \nไม่สามารถทำลายได้\nทุก ๆ การอัพเกรด 2 ขั้น, ATK +10 \nทุก ๆ การอัพเกรด 3 ขั้น, เพิ่ม Damage ของ Axe Tornado 10%\nเมื่ออัพเกรดถึงขั้น 9, เพิ่ม Damage ของ Axe Boomerang 40%\nเมื่ออัพเกรดถึงขั้น 11, เพิ่ม Damage ทางกายภาพแก่ศัตรูทุกขนาด 15%\nเมื่อโจมตีทางกายภาพและเวทมนตร์ระหว่างสวมใส่ร่วมกับ Ancient Hero Boots, มีโอกาสที่ STR +20, ATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Two-Handed Axe^000000 พลังโจมตี : ^777777270^000000\nน้ำหนัก : ^777777600^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Mechanic Cls^000000",
@@ -58833,7 +58035,7 @@
   "28257": {
     "id": 28257,
     "aegisName": "Golden_L_Launcher",
-    "name": "Ancestral Garland Spear [2]",
+    "name": "Golden Lord Launcher [2]",
     "unidName": "Grenade Launcher",
     "resName": "디바그레네이드건",
     "description": "ปืน Grenade Launcher ที่ทำมาจากทองคำ ถูกใช้โดยนักแม่นปืนผู้มากความสามารถ\nดูกลมกลืนเข้ากับ Ancient Hero Boots\n\nทุก ๆ การอัพเกรด 2 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 3%\nทุก ๆ การอัพเกรด 3 ขั้น ATK +15\nเมื่ออัพเกรดถึงขั้น 7 เพิ่ม Damage สกิล Dragon Tail 15%\nเมื่ออัพเกรดถึงขั้น 9 ลด Cooldown สกิล Dragon Tail 1 วินาที\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage สกิล Dragon Tail ขึ้นอีก 15%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ มีโอกาส DEX +20, เพิ่ม Damage ทางกายภาพระยะไกล 10% เป็นเวลา 7 วินาที\nประเภท : ^777777Grenade Launcher^000000 พลังโจมตี : ^777777320^000000\nน้ำหนัก : ^777777210^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Rebellion^000000",
@@ -58875,7 +58077,7 @@
   "28258": {
     "id": 28258,
     "aegisName": "The_Black_Gatling",
-    "name": "Ancestral Gatling [2]",
+    "name": "The Black [2]",
     "unidName": "Gatling Gun",
     "resName": "어벤저개틀링건",
     "description": "Gatling Gun สีดำที่ใช้โดยผู้ที่มีระดับเป็นปรมาจารย์ สามารถใช้อาวุธปืนทุกชนิดได้อย่างชำนาญ\nดูเข้ากับ Ancient Hero Boots\n\nทุกการอัพเกรด 2 ขั้น ATK + 10.\nทุกการอัพเกรด 3 ขั้น เพิ่มดาเมจทางกายภาพระยะไกล 2%\nเมื่ออัพเกรดขั้น 7, เพิ่มดาเมจ Round Trip 15%, เพิ่มการใช้ SP ของสกิล Round Trip 10%\nเมื่ออัพเกรดขั้น 9 , เมื่อใช้งาน Platinum Altar, ATK + 50 เป็นเวลา 90 วินาที, เพิ่มดาเมจทางกายภาพระยะไกล 10%\nเมื่ออัพเกรดขั้น 11 , เพิ่มดาเมจ Round Trip อีก 15%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ มีโอกาสเล็กน้อยที่ DEX +20, เพิ่มดาเมจทางกายภาพระยะไกล 10% เป็นเวลา 7 วินาที\nประเภท : ^777777Gatling Gun^000000 พลังโจมตี : ^777777205^000000\nน้ำหนัก : ^777777270^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Rebellion^000000",
@@ -60530,7 +59732,7 @@
   "28763": {
     "id": 28763,
     "aegisName": "Sharp_Wind_Sword",
-    "name": "Ancestral Kodachi [2]",
+    "name": "Surudoi Kaze [2]",
     "unidName": "Knife",
     "resName": "후츠노미타마",
     "description": "หนึ่งในดาบนินจาที่นินจาผู้ชำนาญการใช้ดาบคู่ในอดีต\nความสามารถที่แท้จริงของมันสามารถรับรู้ได้เมื่อสวมใส่กับดาบนินจา Kiri no Tsuyu อีกเล่มหนึ่ง\n\nเมื่อสวมใส่กับ Kiri no Tsuyu และ Ancient Hero Boots หากทำการโจมตึทางกายภาพ มีโอกาสเล็กน้อย ที่จะเพิ่ม STR + 20, ATK 10% เป็นเวลา 7 วินาที\nประเภท : ^777777Dagger^000000 พลังโจมตี : ^777777150^000000\nน้ำหนัก : ^777777100^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Ninja Class^000000",
@@ -60559,7 +59761,7 @@
   "28764": {
     "id": 28764,
     "aegisName": "Fog_Dew_Sword",
-    "name": "Fog Dew Sword [2]",
+    "name": "Kiri no Tsuyu [2]",
     "unidName": "Knife",
     "resName": "안개의요도",
     "description": "หนึ่งในดาบนินจาที่นินจาผู้ชำนาญการใช้ดาบคู่ในอดีต\nความสามารถที่แท้จริงของมันสามารถรับรู้ได้เมื่อสวมใส่กับดาบนินจา Surudoi Kaze อีกเล่มหนึ่ง\n\nเมื่อสวมใส่กับ Surudoi Kaze, \nทุกๆ ขั้นอัพเกรดรวมครบ 3 ขั้น ATK + 10.\nทุกๆ ขั้นอัพเกรดรวมครบ 5 ขั้น ATK + 2%.\nเมื่อขั้นอัพเกรดรวมครบ 14 ขึ้นไป, ดาเมจของ Cross Slash เพิ่มขึ้น 25%\nเมื่อขั้นอัพเกรดรวมครบ 16 ขึ้นไป, ลดเวลาคูลไทม์ของสกิล Cross Slash ลง 2 วินาที\nเมื่อขั้นอัพเกรดรวมครบ 18 ขึ้นไป, จะสามารถใช้งานสกิล Distorted Cresent ได้เท่ากับจำนวนเลเวลการเรียนรู้ของสกิล Shadow Trampling, จะสามารถใช้งานสกิล Shadow Trampling ได้เท่ากับจำนวนเลเวลการเรียนรู้ของสกิล Distorted Cresent\nเมื่อขั้นอัพเกรดรวมครบ 20 ขึ้นไป, ดาเมจของ Cross Slash เพิ่มขึ้นอีก 25%\nประเภท : ^777777Dagger^000000 พลังโจมตี : ^777777150^000000\nน้ำหนัก : ^777777100^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Ninja Class^000000",
@@ -61336,7 +60538,7 @@
     "itemSubTypeId": 514,
     "itemLevel": null,
     "attack": null,
-    "defense": 50,
+    "defense": 95,
     "weight": 120,
     "requiredLevel": 100,
     "location": null,
@@ -61345,11 +60547,18 @@
       "all"
     ],
     "script": {
-      "vct": [
-        "10"
+      "mdef": [
+        "5"
       ],
-      "acd": [
-        "SUM[level==130]===5"
+      "hpPercent": [
+        "1",
+        "SUM[level==130]===1",
+        "3---1"
+      ],
+      "spPercent": [
+        "1",
+        "SUM[level==130]===1",
+        "3---1"
       ]
     }
   },
@@ -69835,7 +69044,7 @@
   "32018": {
     "id": 32018,
     "aegisName": "Undine_Spear_K",
-    "name": "Ancestral Spear [2]",
+    "name": "Aquatic Spear [2]",
     "unidName": "Spear",
     "resName": "운디네의창",
     "description": "หอกที่ทำให้นึกถึงเกลียวคลื่นที่โหมกระหน่ำแต่งดงาม\nว่ากันว่าเป็นอาวุธที่ได้รับพรจากจิตวิญญาณแห่งน้ำ ซึ่งวีรบุรุษในยุคโบราณเคยใช้ \nดูกลมกลืนเข้ากับ Ancient Hero Boots\n\nทุกๆ การอัพเกรด 2 ขั้น ATK + 10\nทุกๆ การอัพเกรด 3 ขั้น เพิ่ม Damage กายภาพ ระยะไกล 4%\nเมื่ออัพเกรดถึงขั้น 7 เพิ่มดาเมจสกิล Cannon Spear, Banishing Point 15%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม ASPD 10%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่มดาเมจสกิล Cannon Spear, Banishing Point 20%\nเมื่อโจมตีทางกายภาพในระหว่างที่สวมใส่ Ancient Hero Boots จะมีโอกาสที่ STR +20, ATK + 15% เป็นเวลา 7 วินาที \n\nประเภท : ^777777One-Handed Spear^000000 พลังโจมตี : ^777777180^000000\nน้ำหนัก : ^777777120^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Royal Guard^000000",
@@ -71107,7 +70316,7 @@
   "32302": {
     "id": 32302,
     "aegisName": "Crimson_Rose",
-    "name": "Ancestral Revolver [2]",
+    "name": "Crimson Rose [2]",
     "unidName": "Revolver",
     "resName": "무쌍총",
     "description": "Revolver ที่ประดับตกแต่งด้วยดอกกุหลาบสีแดงสด ที่มือปืนสุดชำนาญการที่สุดได้เคยใช้มัน \nดูเหมือนจะตอบรับกันกับ Ancient Hero Boots\n\nทุกการอัพเกรด 2 ขั้น ATK + 10.\nทุกการอัพเกรด 3 ขั้น, เพิ่ม ASPD ทีละ +3% \nเมื่ออัพเกรดขั้น 7, ASPD + 1, ATK + 5%\nเมื่ออัพเกรดขั้น 9, เพิ่ม Critical Damage 20%\nเมื่ออัพเกรดขั้น 11, เมื่อใช้ Hot Barrel เพิ่ม CRI +20 และเพิ่มดาเมจทางกายภาพระยะไกล 15% เป็นเวลา 60 วินาที\nถ้าสวมใส่ร่วมกันกับ Ancient Hero Boots เมื่อทำการโจมตีทางกายภาพจะมีโอกาส (3%) ที่จะเพิ่ม DEX + 20,และพลังโจมตีทางกายภาพระยะไกลเพิ่ม 10% เป็นเวลา 7 วินาที\n\nประเภท : ^777777Revolver^000000 พลังโจมตี : ^777777150^000000\nน้ำหนัก : ^77777770^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777สำหรับ Rebellion^000000",
@@ -147375,9 +146584,9 @@
     "id": 400374,
     "aegisName": "GoodnEvil_Circlet_DK",
     "name": "Crown of Good and Evil (Dragon Knight) [1]",
-    "unidName": "Headgear",
+    "unidName": "Helm",
     "resName": "GoodnEvil_Circlet",
-    "description": "Increases physical damage against all races enemies by 5% per 3 refine rate.\r\nIncreases melee and long ranged physical damage by 7% per 4 refine rate.\r\nIf refine rate is 7 or higher, Res + 50.\r\nIf refine rate is 9 or higher, reduces global cooldown by 5%. increases attack speed (reduces delay after attack by 5%).\r\nIf refine rate is 11 or higher, Atk + 5%, reduces fixed casting time by 0.3 seconds.\r\n\r\nWhen equipped with Execution Great Sword,\r\nincreases Hack and Slasher damage by 4% and Storm Slash damage by 5% per 3 refine rate of weapon,\r\nif grade of weapon is B or higher, increases Hack and Slasher damage by additional 10%,\r\nwhen equipped with Evil Spell, increases Hack and Slasher damage by additional 15% and Storm Slash damage by additional 20%.\r\n\r\nWhen equipped with Jupiter Spear,\r\nincreases Dragonic Breath damage by 4% and Madness Crusher damage by 5% per 3 refine rate of weapon,\r\nif grade of weapon is B or higher, increases Dragonic Breath damage by additional 10%,\r\nwhen equipped with Good Spell, increases Dragonic Breath damage by additional 15% and Madness Crusher damage by additional 20%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] MaxHP + 5%.\r\n[Grade C] P.Atk + 3, S.Matk + 3.\r\n[Grade B] P.Atk + 2, S.Matk + 2, POW + 2, SPL + 2.\r\n[Grade A] Res + 50, Mres + 50, if refine rate is 12 or higher, reduces fixed casting time by additional 0.2 seconds.\r\n\r\nClass: ^777777Headgear^000000 Defense: ^77777710^000000\r\nLocation: ^777777Upper^000000 Weight: ^77777710^000000\r\nArmor Level: ^7777772^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Dragon Knight^000000",
+    "description": "หมวกที่ก้องสะท้อนพลังอันยิ่งใหญ่ของวีรบุรุษและความหายนะ\nแฝงพลังในการขับเน้นอานุภาพของอาวุธทั้งฝ่ายธรรมะและอธรรม\n \nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 5%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 7%\nเมื่ออัพเกรดถึงขั้น 7, RES + 50\nเมื่ออัพเกรดถึงขั้น 9, ลด Delay หลังใช้สกิล 5%, ASPD + 5%\nเมื่ออัพเกรดถึงขั้น 11, ATK + 5%, ลดระยะเวลาร่ายแบบคงที่ 0.3 วินาที\n \nเมื่อสวมใส่ร่วมกับ Execution Great Sword, \nทุก ๆ การอัพเกรด Weapon 3 ขั้น เพิ่ม Damage สกิล Hack and Slasher 4%, เพิ่ม Damage สกิล Storm Slash 5%,\nเมื่อ Weapon มี Grade B ขึ้นไป, เพิ่ม Damage สกิล Hack and Slasher ขึ้นอีก 10%,\nเมื่อสวมใส่ร่วมกับ Evil Spell, เพิ่ม Damage สกิล Hack and Slasher ขึ้นอีก 15%, เพิ่ม Damage สกิล Storm Slash ขึ้นอีก 20%\n \nเมื่อสวมใส่ร่วมกับ Jupiter Spear, \nทุก ๆ การอัพเกรด Weapon 3 ขั้น เพิ่ม Damage สกิล Dragonic Breath 4%, เพิ่ม Damage สกิล Madness Crusher 5%,\nเมื่อ Weapon มี Grade B ขึ้นไป, เพิ่ม Damage สกิล Dragonic Breath ขึ้นอีก 10%\nเมื่อสวมใส่ร่วมกับ Good Spell, เพิ่ม Damage สกิล Dragonic Breath ขึ้นอีก 15%, เพิ่ม Damage สกิล Madness Crusher ขึ้นอีก 20%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] MHP + 5%\n[Grade C] P.ATK + 3, S.MATK + 3\n[Grade B] P.ATK + 2, S.MATK + 2, POW + 2, SPL + 2\n[Grade A] RES + 50, MRES + 50, เมื่ออัพเกรดถึงขั้น 12, ลดระยะเวลาร่ายแบบคงที่ลงอีก 0.2 วินาที\n \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper^000000 น้ำหนัก : ^77777710^000000\nเลเวล Armor : ^7777772^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Dragon Knight^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 512,
@@ -147463,9 +146672,9 @@
     "id": 400375,
     "aegisName": "GoodnEvil_Circlet_IG",
     "name": "Crown of Good and Evil (Imperial Guard) [1]",
-    "unidName": "Headgear",
+    "unidName": "Helm",
     "resName": "GoodnEvil_Circlet",
-    "description": "Increases physical and magical damage against all races enemies by 5% per 3 refine rate.\r\nIncreases melee physical damage and holy property magical damage by 7% per 4 refine rate.\r\nIf refine rate is 7 or higher, Res + 50.\r\nIf refine rate is 9 or higher, reduces variable casting time by 5%. increases attack speed (reduces delay after attack by 5%).\r\nIf refine rate is 11 or higher, Atk + 5%, Matk + 5%, reduces fixed casting time by 0.3 seconds.\r\n\r\nWhen equipped with Devil Guardian Sword,\r\nincreases Cross Rain damage by 4% and holy property magical damage by 5% per 3 refine rate of weapon,\r\nif grade of weapon is B or higher, increases Cross Rain damage by additional 10%,\r\nwhen equipped with Evil Spell, increases Cross Rain damage by additional 15% and holy property magical damage by additional 20%.\r\n\r\nWhen equipped with Holy Light Spear,\r\nincreases Overslash damage by 4% and melee physical damage by 5% per 3 refine rate of weapon,\r\nif grade of weapon is B or higher, increases Overslash damage by additional 10%,\r\nwhen equipped with Good Spell, increases Overslash damage by additional 15% and melee physical damage by additional 20%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] MaxHP + 5%.\r\n[Grade C] P.Atk + 3, S.Matk + 3.\r\n[Grade B] P.Atk + 2, S.Matk + 2, POW + 2, SPL + 2.\r\n[Grade A] Res + 50, Mres + 50, if refine rate is 12 or higher, reduces fixed casting time by additional 0.2 seconds.\r\n\r\nClass: ^777777Headgear^000000 Defense: ^77777710^000000\r\nLocation: ^777777Upper^000000 Weight: ^77777710^000000\r\nArmor Level: ^7777772^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Imperial Guard^000000",
+    "description": "หมวกที่ก้องสะท้อนพลังอันยิ่งใหญ่ของวีรบุรุษและความหายนะ\nแฝงพลังในการขับเน้นอานุภาพของอาวุธทั้งฝ่ายธรรมะและอธรรม\n \nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage ทางกายภาพ/เวทมนตร์ต่อศัตรูทุกเผ่า 5%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพระยะใกล้ 7%, เพิ่ม Damage ทางเวทมนตร์ธาตุ Holy 7%\nเมื่ออัพเกรดถึงขั้น 7, RES + 50\nเมื่ออัพเกรดถึงขั้น 9, ลดระยะเวลาร่ายแบบแปรผัน 5%, ASPD + 5%\nเมื่ออัพเกรดถึงขั้น 11, ATK + 5%, MATK + 5%, ลดระยะเวลาร่ายแบบคงที่ 0.3 วินาที\n \nเมื่อสวมใส่ร่วมกับ Devil Guardian Sword, \nทุก ๆ การอัพเกรด Weapon 3 ขั้น เพิ่ม Damage สกิล Cross Rain 4%, เพิ่ม Damage ทางเวทมนตร์ธาตุ Holy 5%,\nเมื่อ Weapon มี Grade B ขึ้นไป, เพิ่ม Damage สกิล Cross Rain ขึ้นอีก 10%\nเมื่อสวมใส่ร่วมกับ Evil Spell, เพิ่ม Damage สกิล Cross Rain ขึ้นอีก 15%, เพิ่ม Damage ทางเวทมนตร์ธาตุ Holy ขึ้นอีก 20%\n \nเมื่อสวมใส่ร่วมกับ Holy Light Spear, \nทุก ๆ การอัพเกรด Weapon 3 ขั้น เพิ่ม Damage สกิล Overslash 4%, เพิ่ม Damage ทางกายภาพระยะใกล้ขึ้นอีก 5%,\nเมื่อ Weapon มี Grade B ขึ้นไป, เพิ่ม Damage สกิล Overslash ขึ้นอีก 10%\nเมื่อสวมใส่ร่วมกับ Good Spell, เพิ่ม Damage สกิล Overslash ขึ้นอีก 15%, เพิ่ม Damage ทางกายภาพระยะใกล้ขึ้นอีก 20%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] MHP + 5%\n[Grade C] P.ATK + 3, S.MATK + 3\n[Grade B] P.ATK + 2, S.MATK + 2, POW + 2, SPL + 2\n[Grade A] RES + 50, MRES + 50, เมื่ออัพเกรดถึงขั้น 12 ลดระยะเวลาร่ายแบบคงที่ 0.2 วินาที\n \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper^000000 น้ำหนัก : ^77777710^000000\nเลเวล Armor : ^7777772^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Imperial Guard^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 512,
@@ -148350,9 +147559,9 @@
     "id": 400385,
     "aegisName": "GoodnEvil_Circlet_TR",
     "name": "Crown of Good and Evil (Trouvere & Troubadour) [1]",
-    "unidName": "Headgear",
+    "unidName": "Helm",
     "resName": "GoodnEvil_Circlet",
-    "description": "Increases physical and magical damage against all races enemies by 5% per 3 refine rate.\r\nIncreases long ranged physical damage and all property magical damage by 7% per 4 refine rate.\r\nIf refine rate is 7 or higher, Res + 50.\r\nIf refine rate is 9 or higher, reduces variable casting time by 10%.\r\nIf refine rate is 11 or higher, Atk + 5%, Matk + 5%, reduces fixed casting time by 0.3 seconds.\r\n\r\nWhen equipped with Crime Violin or Crime Whip,\r\nincreases Metallic Fury damage by 4% and Sound Blend damage by 5% per 3 refine rate of weapon,\r\nif grade of weapon is B or higher, increases Metallic Fury damage by additional 10%,\r\nwhen equipped with Evil Spell, increases Metallic Fury damage by additional 15% and Sound Blend damage by additional 20%.\r\n\r\nWhen equipped with Light Power Harp or Light Power Spark,\r\nincreases Rhythm Shooting damage by 4% and Rose Blossom damage by 5% per 3 refine rate of weapon,\r\nif grade of weapon is B or higher, increases Rhythm Shooting damage by additional 10%,\r\nwhen equipped with Good Spell, increases Rhythm Shooting damage by additional 15% and Rose Blossom damage by additional 20%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] MaxHP + 5%.\r\n[Grade C] P.Atk + 3, S.Matk + 3.\r\n[Grade B] P.Atk + 2, S.Matk + 2, POW + 2, SPL + 2.\r\n[Grade A] Res + 50, Mres + 50, if refine rate is 12 or higher, reduces fixed casting time by additional 0.2 seconds.\r\n\r\nClass: ^777777Headgear^000000 Defense: ^77777710^000000\r\nLocation: ^777777Upper^000000 Weight: ^77777710^000000\r\nArmor Level: ^7777772^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Troubadour, Trouvere^000000",
+    "description": "หมวกที่ก้องสะท้อนพลังอันยิ่งใหญ่ของวีรบุรุษและความหายนะ\nแฝงพลังในการขับเน้นอานุภาพของอาวุธทั้งฝ่ายธรรมะและอธรรม\n \nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage ทางกายภาพ/เวทมนตร์ต่อศัตรูทุกเผ่า 5%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 7%, เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 7%\nเมื่ออัพเกรดถึงขั้น 7, RES + 50\nเมื่ออัพเกรดถึงขั้น 9, ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดถึงขั้น 11, ATK + 5%, MATK + 5%, ลดระยะเวลาร่ายแบบคงที่ 0.3 วินาที\n \nเมื่อสวมใส่ร่วมกับ Crime Violin หรือ Crime Whip, \nทุก ๆ การอัพเกรด Weapon 3 ขั้น เพิ่ม Damage สกิล Metalic Fury 4%, เพิ่ม Damage สกิล Sound Blend 5%,\nเมื่อ Weapon มี Grade B ขึ้นไป, เพิ่ม Damage สกิล Metalic Fury ขึ้นอีก 10%\nเมื่อสวมใส่ร่วมกับ Evil Spell, เพิ่ม Damage สกิล Metalic Fury ขึ้นอีก 15%, เพิ่ม Damage สกิล Sound Blend ขึ้นอีก 20%\n \nเมื่อสวมใส่ร่วมกับ Light Power Harp หรือ Light Power Spark, \nทุก ๆ การอัพเกรด Weapon 3 ขั้น เพิ่ม Damage สกิล Rhythm Shooting 4%, เพิ่ม Damage สกิล Rose Blossom  5%,\nเมื่อ Weapon มี Grade B ขึ้นไป, เพิ่ม Damage สกิล Rhythm Shooting ขึ้นอีก 10%\nเมื่อสวมใส่ร่วมกับ Good Spell, เพิ่ม Damage สกิล Rhythm Shooting ขึ้นอีก 15%, เพิ่ม Damage สกิล Rose Blossom ขึ้นอีก 20%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] MHP + 5%\n[Grade C] P.ATK + 3, S.MATK + 3\n[Grade B] P.ATK + 2, S.MATK + 2, CON + 2, SPL + 2\n[Grade A] RES + 50, MRES + 50, เมื่ออัพเกรดถึงขั้น 12, ลดระยะเวลาร่ายแบบคงที่ลงอีก 0.2 วินาที\n \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper^000000 น้ำหนัก : ^77777710^000000\nเลเวล Armor : ^7777772^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Trouvere, Troubadour^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 512,
@@ -155569,7 +154778,7 @@
     "name": "Young Leaf of World Tree (Luk)",
     "unidName": "Mask",
     "resName": "입에무는식물줄기",
-    "description": "ใบอ่อนบนต้น Yggdrasil อันเป็นแกนกลางของโลกใบนี้ เมื่ออยู่คู่กันกับอุปกรณ์ประเภท Temporal จะเผยพลังลึกลับที่ซ่อนไว้ออกมา\nเมื่อสวมใส่ร่วมกับ Temporal Luk Manteau และ Armadura Temporal SUE/[Not for Sale] Armadura Temporal SUE เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 10% (ยกเว้น Player),\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 14 ขึ้นไป ATK +80\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 10% และ Critical Damage +12%\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เพิ่ม Damage ทางกายภาพระยะใกล้และระยะไกล 10%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777775^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "ใบอ่อนบนต้น Yggdrasil อันเป็นแกนกลางของโลกใบนี้ เมื่ออยู่คู่กันกับอุปกรณ์ประเภท Temporal จะเผยพลังลึกลับที่ซ่อนไว้ออกมา\nเมื่อสวมใส่ร่วมกับ Temporal Luk Manteau และ Unexpected Fortune Armor/[Not for Sale] Unexpected Fortune Armor เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 10% (ยกเว้น Player),\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 14 ขึ้นไป ATK +80\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 10% และ Critical Damage +12%\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เพิ่ม Damage ทางกายภาพระยะใกล้และระยะไกล 10%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777775^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 0,
     "itemTypeId": 2,
     "itemSubTypeId": 512,
@@ -155585,22 +154794,22 @@
     ],
     "script": {
       "p_race_all": [
-        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]===10"
+        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]===10"
       ],
       "atk": [
-        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]REFINE[armor,garment==14]===80"
+        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]REFINE[armor,garment==14]===80"
       ],
       "p_size_all": [
-        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]REFINE[armor,garment==18]===10"
+        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]REFINE[armor,garment==18]===10"
       ],
       "criDmg": [
-        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]REFINE[armor,garment==18]===12"
+        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]REFINE[armor,garment==18]===12"
       ],
       "range": [
-        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]REFINE[armor,garment==22]===10"
+        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]REFINE[armor,garment==22]===10"
       ],
       "melee": [
-        "EQUIP[Temporal Luk Manteau&&Armadura Temporal SUE]REFINE[armor,garment==22]===10"
+        "EQUIP[Temporal Luk Manteau&&Unexpected Fortune Armor]REFINE[armor,garment==22]===10"
       ]
     }
   },
@@ -190350,6 +189559,319 @@
       ]
     }
   },
+  "490812": {
+    "id": 490812,
+    "aegisName": null,
+    "name": "Ring of Evil (Dragon Knight) [1]",
+    "unidName": "Ring of Evil (Dragon Knight)",
+    "resName": "Scorpio_Ring_J",
+    "description": "ATK +100\nลด Delay หลังใช้สกิล 10%\nPOW +10\nCRI +15\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 15%\n \nเมื่อสวมใส่ร่วมกับ Execution Great Sword, \nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 15%,\nเพิ่ม Damage สกิล Hack and Slasher, Storm Slash 15%\n\nเมื่อ Execution Great Sword มีขั้นอัพเกรดตั้งแต่ 10 ขึ้นไป, \nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกธาตุ 15%,\nเพิ่ม Damage สกิล Hack and Slasher, Storm Slash 15%\n\nเมื่อ Execution Great Sword มี Grade C ขึ้นไป, \nCRI +30,\nลด Cooldown สกิล Hack and Slasher 0.5 วินาที,\nลด Cooldown สกิล Storm Slash 0.2 วินาที,\nเพิ่ม Damage สกิล Hack and Slasher, Storm Slash 20%\n\nเมื่อสวมใส่ร่วมกับ Evil Spell,\nเมื่อใช้งานสกิล Hack and Slasher มีโอกาส 40% ที่จะ Autospell สกิล Storm Slash Lv.1 (เมื่อเรียนรู้สกิลในเลเวลที่สูงกว่า จะร่ายตามเลเวลสูงสุด)\nประเภท : ^777777Accessory (Right)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Dragon Knight^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 510,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 215,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "DragonKnight"
+    ],
+    "script": {
+      "atk": [
+        "100"
+      ],
+      "acd": [
+        "10"
+      ],
+      "pow": [
+        "10"
+      ],
+      "cri": [
+        "15",
+        "EQUIP[Execution Great Sword]GRADE[weapon==C]===30"
+      ],
+      "p_class_all": [
+        "15"
+      ],
+      "p_size_all": [
+        "EQUIP[Execution Great Sword]===15"
+      ],
+      "p_element_all": [
+        "EQUIP[Execution Great Sword]REFINE[weapon==10]===15"
+      ],
+      "Hack and Slasher": [
+        "EQUIP[Execution Great Sword]===15",
+        "EQUIP[Execution Great Sword]REFINE[weapon==10]===15",
+        "EQUIP[Execution Great Sword]GRADE[weapon==C]===20"
+      ],
+      "Storm Slash": [
+        "EQUIP[Execution Great Sword]===15",
+        "EQUIP[Execution Great Sword]REFINE[weapon==10]===15",
+        "EQUIP[Execution Great Sword]GRADE[weapon==C]===20"
+      ],
+      "cd__Hack and Slasher": [
+        "EQUIP[Execution Great Sword]GRADE[weapon==C]===0.5"
+      ],
+      "cd__Storm Slash": [
+        "EQUIP[Execution Great Sword]GRADE[weapon==C]===0.2"
+      ]
+    }
+  },
+  "490813": {
+    "id": 490813,
+    "aegisName": null,
+    "name": "Ring of Good (Imperial Guard) [1]",
+    "unidName": "Ring of Good (Imperial Guard)",
+    "resName": "RK은반지",
+    "description": "ATK +100\nลด Delay หลังใช้สกิล 10%\nPOW +10\nATK + 6%\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 15%\n \nเมื่อสวมใส่ร่วมกับ Holy Light Spear, \nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 15%,\nเพิ่ม Damage สกิล Overslash 15%\n\nเมื่อ Holy Light Spear มีขั้นอัพเกรดตั้งแต่ 10 ขึ้นไป, \nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกธาตุ 15%,\nเพิ่ม Damage สกิล Overslash 15%\n\nเมื่อ Holy Light Spear มี Grade C ขึ้นไป, \nเพิ่ม Damage ทางกายภาพระยะใกล้ 20%,\nลด Cooldown สกิล Overslash 0.2 วินาที,\nเพิ่ม Damage สกิล Overslash 20%\n\nเมื่อสวมใส่ร่วมกับ Good Spell,\nเมื่อใช้งานสกิล Overslash มีโอกาส 30% ที่จะ Autospell สกิล Overslash Lv.1 (เมื่อเรียนรู้สกิลในเลเวลที่สูงกว่า จะร่ายตามเลเวลสูงสุด),\nสามารถใช้งานสกิล Power Lv.4 ได้\nประเภท : ^777777Accessory (Right)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Imperial Guard^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 510,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 215,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "ImperialGuard"
+    ],
+    "script": {
+      "atk": [
+        "100"
+      ],
+      "acd": [
+        "10"
+      ],
+      "pow": [
+        "10"
+      ],
+      "atkPercent": [
+        "6"
+      ],
+      "p_class_all": [
+        "15"
+      ],
+      "p_size_all": [
+        "EQUIP[Holy Light Spear]===15"
+      ],
+      "p_element_all": [
+        "EQUIP[Holy Light Spear]REFINE[weapon==10]===15"
+      ],
+      "Overslash": [
+        "EQUIP[Holy Light Spear]===15",
+        "EQUIP[Holy Light Spear]REFINE[weapon==10]===15",
+        "EQUIP[Holy Light Spear]GRADE[weapon==C]===20"
+      ],
+      "melee": [
+        "EQUIP[Holy Light Spear]GRADE[weapon==C]===20"
+      ],
+      "cd__Overslash": [
+        "EQUIP[Holy Light Spear]GRADE[weapon==C]===0.2"
+      ]
+    }
+  },
+  "490814": {
+    "id": 490814,
+    "aegisName": null,
+    "name": "Ring of Evil (Troubadour & Trouvere) [1]",
+    "unidName": "Ring of Evil (Troubadour & Trouvere)",
+    "resName": "Scorpio_Ring_J",
+    "description": "MATK +100\nลด Delay หลังใช้สกิล 10%\nSPL +10\nลดระยะเวลาร่ายแบบแปรผัน 15%\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกประเภท 15%\n \nเมื่อสวมใส่ร่วมกับ Crime Violin หรือ Crime Whip, \nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 15%,\nเพิ่ม Damage สกิล Metalic Fury, Sound Blend 15%\n\nเมื่อ Crime Violin หรือ Crime Whip มีขั้นอัพเกรดตั้งแต่ 10 ขึ้นไป, \nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกธาตุ 15%,\nเพิ่ม Damage สกิล Metalic Fury, Sound Blend 15%\n\nเมื่อ Crime Violin หรือ Crime Whip มี Grade C ขึ้นไป, \nMATK +15%,\nเพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 15%,\nเพิ่ม Damage สกิล Metalic Fury, Sound Blend 20%\n\nเมื่อสวมใส่ร่วมกับ Evil Spell,\nS.MATK + 15, ลด Cooldown สกิล Metalic Fury 0.3 วินาที\nเมื่อใช้งานสกิล Jawaii Serenade จะเปลี่ยนร่างเป็น Moonlight Flower เป็นเวลา 60 วินาที\nประเภท : ^777777Accessory (Right)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Troubadour, Trouvere^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 510,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 215,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Troubadour",
+      "Trouvere"
+    ],
+    "script": {
+      "matk": [
+        "100"
+      ],
+      "acd": [
+        "10"
+      ],
+      "spl": [
+        "10"
+      ],
+      "vct": [
+        "15"
+      ],
+      "m_class_all": [
+        "15"
+      ],
+      "m_size_all": [
+        "EQUIP[Crime Violin||Crime Whip]===15"
+      ],
+      "m_element_all": [
+        "EQUIP[Crime Violin||Crime Whip]REFINE[weapon==10]===15"
+      ],
+      "Metallic Fury": [
+        "EQUIP[Crime Violin||Crime Whip]===15",
+        "EQUIP[Crime Violin||Crime Whip]REFINE[weapon==10]===15",
+        "EQUIP[Crime Violin||Crime Whip]GRADE[weapon==C]===20"
+      ],
+      "Sound Blend": [
+        "EQUIP[Crime Violin||Crime Whip]===15",
+        "EQUIP[Crime Violin||Crime Whip]REFINE[weapon==10]===15",
+        "EQUIP[Crime Violin||Crime Whip]GRADE[weapon==C]===20"
+      ],
+      "matkPercent": [
+        "EQUIP[Crime Violin||Crime Whip]GRADE[weapon==C]===15"
+      ],
+      "m_my_element_all": [
+        "EQUIP[Crime Violin||Crime Whip]GRADE[weapon==C]===15"
+      ],
+      "sMatk": [
+        "EQUIP[Evil Spell]===15"
+      ],
+      "cd__Metallic Fury": [
+        "EQUIP[Evil Spell]===0.3"
+      ]
+    }
+  },
+  "490815": {
+    "id": 490815,
+    "aegisName": null,
+    "name": "Ring of Evil (Windhawk) [1]",
+    "unidName": "Ring of Evil (Windhawk)",
+    "resName": "Scorpio_Ring_J",
+    "description": "ATK +100\nลด Delay หลังใช้สกิล 10%\nCON +10\nลดระยะเวลาร่ายแบบคงที่ 0.5 วินาที\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 15%\n\nเมื่อสวมใส่ร่วมกับ Underworld Knife, \nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 15%,\nเพิ่ม Damage สกิล Flame Trap, Solid Trap, Swift Trap, Deep Blind Trap 15%\n\nเมื่อ Underworld Knife มีขั้นอัพเกรดตั้งแต่ 10 ขึ้นไป, \nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกธาตุ 15%,\nเพิ่ม Damage สกิล Flame Trap, Solid Trap, Swift Trap, Deep Blind Trap 15%\n\nเมื่อ Underworld Knife มี Grade C ขึ้นไป, \nATK + 10%,\nเพิ่ม Damage ทางกายภาพระยะใกล้ 20%,\nเพิ่ม Damage สกิล Flame Trap, Solid Trap, Swift Trap, Deep Blind Trap 20%\n\nเมื่อสวมใส่ร่วมกับ Evil Spell,\nสามารถใช้งานสกิล Unlucky Rush Lv.5, Dagger Bow Mastery Lv.10 ได้\nประเภท : ^777777Accessory (Right)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Windhawk^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 510,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 215,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Windhawk"
+    ],
+    "script": {
+      "atk": [
+        "100"
+      ],
+      "acd": [
+        "10"
+      ],
+      "con": [
+        "10"
+      ],
+      "fct": [
+        "0.5"
+      ],
+      "p_class_all": [
+        "15"
+      ],
+      "p_size_all": [
+        "EQUIP[Underworld Knife]===15"
+      ],
+      "p_element_all": [
+        "EQUIP[Underworld Knife]REFINE[weapon==10]===15"
+      ],
+      "Flame Trap": [
+        "EQUIP[Underworld Knife]===15",
+        "EQUIP[Underworld Knife]REFINE[weapon==10]===15",
+        "EQUIP[Underworld Knife]GRADE[weapon==C]===20"
+      ],
+      "Solid Trap": [
+        "EQUIP[Underworld Knife]===15",
+        "EQUIP[Underworld Knife]REFINE[weapon==10]===15",
+        "EQUIP[Underworld Knife]GRADE[weapon==C]===20"
+      ],
+      "Swift Trap": [
+        "EQUIP[Underworld Knife]===15",
+        "EQUIP[Underworld Knife]REFINE[weapon==10]===15",
+        "EQUIP[Underworld Knife]GRADE[weapon==C]===20"
+      ],
+      "Deep Blind Trap": [
+        "EQUIP[Underworld Knife]===15",
+        "EQUIP[Underworld Knife]REFINE[weapon==10]===15",
+        "EQUIP[Underworld Knife]GRADE[weapon==C]===20"
+      ],
+      "atkPercent": [
+        "EQUIP[Underworld Knife]GRADE[weapon==C]===10"
+      ],
+      "melee": [
+        "EQUIP[Underworld Knife]GRADE[weapon==C]===20"
+      ]
+    }
+  },
+  "490816": {
+    "id": 490816,
+    "aegisName": null,
+    "name": "Ring of Good (Cardinal) [1]",
+    "unidName": "Ring of Good (Cardinal)",
+    "resName": "RK은반지",
+    "description": "MATK +100\nลด Delay หลังใช้สกิล 10%\nSPL +10\nลดระยะเวลาร่ายแบบแปรผัน 15%\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกประเภท 15%\n \nเมื่อสวมใส่ร่วมกับ Saint Bringer,\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 15%,\nเพิ่ม Damage สกิล Framen, Arbitrium 15%\n\nเมื่อ Saint Bringer มีขั้นอัพเกรดตั้งแต่ 10 ขึ้นไป, \nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกธาตุ 15%,\nเพิ่ม Damage สกิล Framen, Arbitrium 15%\n\nเมื่อ Saint Bringer มี Grade C ขึ้นไป, \nMATK 15%,\nเพิ่ม Damage ทางเวทมนตร์ธาตุ Holy 15%,\nเพิ่ม Damage สกิล Framen, Arbitrium 20%\n\nเมื่อสวมใส่ร่วมกับ Good Spell,\nเมื่อใช้งานสกิล Arbitrium มีโอกาส 30% ที่จะ Autospell สกิล Arbitrium Lv.10\nประเภท : ^777777Accessory (Right)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Cardinal^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 215,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Cardinal"
+    ],
+    "script": {
+      "matk": [
+        "100"
+      ],
+      "acd": [
+        "10"
+      ],
+      "spl": [
+        "10"
+      ],
+      "vct": [
+        "15"
+      ],
+      "m_class_all": [
+        "15"
+      ],
+      "m_size_all": [
+        "EQUIP[Saint Bringer]===15"
+      ],
+      "m_element_all": [
+        "EQUIP[Saint Bringer]REFINE[weapon==10]===15"
+      ],
+      "Framen": [
+        "EQUIP[Saint Bringer]===15",
+        "EQUIP[Saint Bringer]REFINE[weapon==10]===15",
+        "EQUIP[Saint Bringer]GRADE[weapon==C]===20"
+      ],
+      "Arbitrium": [
+        "EQUIP[Saint Bringer]===15",
+        "EQUIP[Saint Bringer]REFINE[weapon==10]===15",
+        "EQUIP[Saint Bringer]GRADE[weapon==C]===20"
+      ],
+      "matkPercent": [
+        "EQUIP[Saint Bringer]GRADE[weapon==C]===15"
+      ],
+      "m_my_element_holy": [
+        "EQUIP[Saint Bringer]GRADE[weapon==C]===15"
+      ]
+    }
+  },
   "500001": {
     "id": 500001,
     "aegisName": "Boost_Sword",
@@ -190411,7 +189933,7 @@
   "500003": {
     "id": 500003,
     "aegisName": "Light_Blade",
-    "name": "Ancestral Avenger [2]",
+    "name": "Light Blade [2]",
     "unidName": "One-Handed Sword",
     "resName": "세이브더킹",
     "description": "ดาบประกายแสงที่เล่าขานกันว่านักรบผู้กล้าหาญเคยใช้\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nMATK + 170\nทุก ๆ การอัพเกรด 2 ขั้น MATK + 10\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล [Gloria Domini], [Genesis Ray] 5%\nเมื่ออัพเกรดตั้งแต่ 9 ขึ้นไป ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดตั้งแต่ 11 ขึ้นไป เพิ่ม Damage ทางเวทมนตร์ธาตุ Holy 15%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots มีโอกาสที่ INT +20, MATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Sword^000000 พลังโจมตี : ^777777130^000000\nน้ำหนัก : ^777777100^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Royal Guard Cls^000000",
@@ -190456,7 +189978,7 @@
   "500004": {
     "id": 500004,
     "aegisName": "Slate_Sword",
-    "name": "Ancestral Blade [2]",
+    "name": "Slate Sword [2]",
     "unidName": "Sword",
     "resName": "Kladenets",
     "description": "ดาบที่ถูกทำขึ้นด้วยแผ่นหินเก่า ๆ\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nทุก ๆ การอัพเกรด 2 ขั้น ATK +10\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Cart Tornado Attack 10%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damage สกิล Cart Tornado Attack ขึ้นอีก 20%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 10%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ/เวทมนตร์ มีโอกาสที่ STR +20, ATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Sword^000000 พลังโจมตี : ^777777190^000000\nน้ำหนัก : ^777777100^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Genetic^000000",
@@ -192203,9 +191725,9 @@
     "id": 500072,
     "aegisName": "Devil_Guardian_Sword",
     "name": "Devil Guardian Sword [2]",
-    "unidName": "Sword",
+    "unidName": "Bastard Sword",
     "resName": "Sins_ShielderSword",
-    "description": "Matk + 220.\r\nMatk + 5%, SPL + 2.\r\nIncreases Cross Rain damage by 5%.\r\nIf refine rate is 5 or higher, increases Cross Rain damage by 10%.\r\nIf refine rate is 7 or higher, increases holy property magical damage by 5%.\r\nIf refine rate is 9 or higher, increases Cross Rain damage by additional 10%.\r\nIf refine rate is 10 or higher, reduces variable casting time by 10%.\r\nIf refine rate is 11 or higher, increases Cross Rain damage by additional 5%, increases holy property magical damage by 15%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases holy property magical damage by 10%.\r\n[Grade C] Increases magical damage against all size enemies by 10%.\r\n[Grade B] Increases magical damage against all race enemies by 10%.\r\n[Grade A] Increases magical damage against all property enemies by 10%.\r\n\r\nClass: ^777777Sword^000000 Attack: ^777777100^000000\r\nWeight: ^777777180^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Imperial Guard^000000",
+    "description": "One-handed Spear ที่ผู้เฝ้าประตูแห่งนรกเคยใช้เพื่อปกป้องโลกจากความมืด\n \nMATK + 220\nMATK + 5%, SPL + 2\nเพิ่ม Damage สกิล Cross Rain 5%\nเมื่ออัพเกรดถึงขั้น 5, เพิ่ม Damage สกิล Cross Rain 10%\nเมื่ออัพเกรดถึงขั้น 7, เพิ่ม Damage ทางเวทมนตร์ธาตุ Holy 5%\nเมื่ออัพเกรดถึงขั้น 9, เพิ่ม Damage สกิล Cross Rain ขึ้นอีก 10%\nเมื่ออัพเกรดถึงขั้น 10, ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดถึงขั้น 11, เพิ่ม Damage สกิล Cross Rain ขึ้นอีก 5%, เพิ่ม Damage ทางเวทมนตร์ธาตุ Holy 15%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] เพิ่ม Damage ทางเวทมนตร์ธาตุ Holy 10%\n[Grade C] เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 10%\n[Grade B] เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกเผ่า 10%\n[Grade A] เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกธาตุ 10%\n \nประเภท : ^777777Sword^000000 พลังโจมตี : ^777777100^000000\nน้ำหนัก : ^777777180^000000\nเลเวล Weapon : ^7777775^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Imperial Guard^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 257,
@@ -192868,7 +192390,7 @@
   "510006": {
     "id": 510006,
     "aegisName": "Fatalist",
-    "name": "Ancestral Dirk [2]",
+    "name": "Fatalist [2]",
     "unidName": "Dagger",
     "resName": "Taurus_Sword_J",
     "description": "ดาบของนักเดินทางโบราณเหมาะสำหรับการแทง\nดูกลมกลืนเข้ากับ Ancient Hero Boots \nทุก ๆ การอัพเกรด 2 ขั้น ATK +10 \nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2% \nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damage สกิล Fatal Manace 20%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 7% \nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ มีโอกาสที่ STR +20, ATK +15% เป็นเวลา 7 วินาที \nประเภท : ^777777Dagger^000000 พลังโจมตี : ^777777165^000000\nน้ำหนัก : ^77777790^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Shadow Chaser Cls^000000",
@@ -194338,7 +193860,7 @@
   "510070": {
     "id": 510070,
     "aegisName": "Blessed_Knife",
-    "name": "Ancestral knife [2]",
+    "name": "Blessed Knife [2]",
     "unidName": "Dagger",
     "resName": "매지컬블레이드",
     "description": "มีดสั้นที่วีรชนผู้กล้าในอดีตเคยใช้มันสู้รบ\nกล่าวขานกันว่า ภายในเปี่ยมไปด้วยพรของเหล่าเทวทูต จึงทำให้ผู้ที่ได้รับการคุ้มครองจากทูตสวรรค์เท่านั้นที่ใช้มีดนี้ได้\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nทุก ๆ การอัพเกรด 2 ขั้น ATK +10\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Back Stab 20%\nเมื่ออัพเกรดถึงขั้น 9, ASPD +10%\nเมื่ออัพเกรดถึงขั้น 11 สามารถใช้สกิล Fatal Manace Lv. 7 ได้\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ มีโอกาสที่ STR +20, ATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Dagger^000000 พลังโจมตี : ^777777200^000000\nน้ำหนัก : ^777777120^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Novice^000000",
@@ -196445,9 +195967,9 @@
     "id": 530045,
     "aegisName": "Holy_Raise_Spear",
     "name": "Holy Light Spear [2]",
-    "unidName": "Spear",
+    "unidName": "Javelin",
     "resName": "Fate_Spear",
-    "description": "Atk + 5%, POW + 2.\r\nIncreases Overslash damage by 5%.\r\nIf refine rate is 5 or higher, increases Overslash damage by 10%.\r\nIf refine rate is 7 or higher, increases melee physical damage by 5%.\r\nIf refine rate is 9 or higher, increases Overslash damage by additional 10%.\r\nIf refine rate is 10 or higher, increases attack speed (reduces delay after attack by 10%).\r\nIf refine rate is 11 or higher, increases Overslash damage by additional 5%, increases melee physical damage by 15%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases melee physical damage by 10%.\r\n[Grade C] Increases physical damage against all size enemies by 10%.\r\n[Grade B] Increases physical damage against all race enemies by 10%.\r\n[Grade A] Increases physical damage against all property enemies by 10%.\r\n\r\nClass: ^777777Spear^000000 Attack: ^777777210^000000\r\nWeight: ^777777200^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Imperial Guard^000000",
+    "description": "One-handed Spear ที่เปล่งประกายพลังแห่งแสงศักดิ์สิทธิ์ มันผ่านการปราบปีศาจมานับไม่ถ้วน\n \nATK + 5%, POW + 2\nเพิ่ม Damage สกิล Overslash 5%\nเมื่ออัพเกรดถึงขั้น 5, เพิ่ม Damage สกิล Overslash 10%\nเมื่ออัพเกรดถึงขั้น 7, เพิ่ม Damage ทางกายภาพระยะใกล้ 5%\nเมื่ออัพเกรดถึงขั้น 9, เพิ่ม Damage สกิล Overslash ขึ้นอีก 10%\nเมื่ออัพเกรดถึงขั้น 10, ASPD + 10%\nเมื่ออัพเกรดถึงขั้น 11, เพิ่ม Damage สกิล Overslash ขึ้นอีก 5%, เพิ่ม Damage ทางกายภาพระยะใกล้ 15%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] เพิ่ม Damage ทางกายภาพระยะใกล้ 10%\n[Grade C] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 10%\n[Grade B] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 10%\n[Grade A] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกธาตุ 10%\n \nประเภท : ^777777One-handed Spear^000000 พลังโจมตี : ^777777210^000000\nน้ำหนัก : ^777777200^000000\nเลเวล Weapon : ^7777775^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Imperial Guard^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 259,
@@ -199810,7 +199332,7 @@
   "550007": {
     "id": 550007,
     "aegisName": "Freezing_Rod",
-    "name": "Ancestral Pole [2]",
+    "name": "Chilling Cane [2]",
     "unidName": "Rod",
     "resName": "일벽장",
     "description": "ไม้คทาสีน้ำเงินที่เล่ากันว่าผู้กล้าในอดีตเคยใช้\nพลังเวทย์ที่ซ่อนอยู่ดูกลมกลืนเข้ากับ Ancient Hero Boots\nไม่สามารถทำลายได้\nMATK +150\nทุก ๆ การอัพเกรด 2 ขั้น MATK +10\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Diamond Dust 8%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูธาตุ Undead 10%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage ทางเวทมนตร์ธาตุ Water 7%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางเวทมนตร์ มีโอกาสที่ INT +20, MATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777One-Handed Staff^000000 พลังโจมตี : ^77777740^000000\nน้ำหนัก : ^77777750^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Sorcerer^000000",
@@ -202410,7 +201932,7 @@
   "550080": {
     "id": 550080,
     "aegisName": "Freedom_Stick",
-    "name": "Ancestral staff [2]",
+    "name": "Freedom Stick [2]",
     "unidName": "Rod",
     "resName": "신축만능팔",
     "description": "คทาเวทย์ที่ไม่ผูกมัดกับวิถีใดใด วีรบุรษผู้หนึ่งเคยใช้ในอดีต\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nไม่สามารถทำลายได้\nMATK +160\nทุก ๆ การอัพเกรด 2 ขั้น MATK +10\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Heaven's Drive 20%\nเมื่ออัพเกรดถึงขั้น 9 ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดถึงขั้น 11 สามารถใช้สกิล Psychic Wave Lv. 3\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางเวทมนตร์ มีโอกาสที่ INT +20, MATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777One-Handed Staff^000000 พลังโจมตี : ^77777770^000000\nน้ำหนัก : ^777777100^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Novice^000000",
@@ -204345,7 +203867,7 @@
   "560002": {
     "id": 560002,
     "aegisName": "Ray_Knuckle",
-    "name": "Ancestral Knuckle [2]",
+    "name": "Ray Knuckle [2]",
     "unidName": "Claw",
     "resName": "섬광의손톱",
     "description": "สนับมือติดใบมีดที่ทำจากแร่ส่องประกายซึ่งค้นพบจากอุกกาบาตชิ้นหนึ่ง\nดูกลมกลืนเข้ากับ Ancient Hero Boots \nทุก ๆ การอัพเกรด 2 ขั้น ATK +10 \nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Tiger Cannon 4%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damage สกิล Tiger Cannon ขึ้นอีก 15%\nเมื่ออัพเกรดถึงขั้น 11 ลด Cooldown สกิล Tiger Cannon 1 วินาที\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ มีโอกาสที่ STR +20, ATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Knuckle^000000 พลังโจมตี : ^777777185^000000\nน้ำหนัก : ^77777770^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Sura^000000",
@@ -205867,7 +205389,7 @@
   "570002": {
     "id": 570002,
     "aegisName": "Trumpet_Shell_K",
-    "name": "Ancestral Ocarina [2]",
+    "name": "Trumpet Shell [2]",
     "unidName": "Violin",
     "resName": "소라고둥",
     "description": "แตรสังข์ เมื่อเป่าดูแล้วจะได้ยินเสียงไพเราะซึ่งมีความลึกลับซ่อนอยู่ด้วย\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nMATK +190\nทุก ๆ การอัพเกรด 2 ขั้น MATK +10\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage ทางเวทมนตร์ธาตุ Neutral 4%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damage สกิล Reverberation, Metalic Sound 10%\nเมื่ออัพเกรดถึงขั้น 11 ลดระยะเวลาร่ายแบบคงที่สกิล Reverberation 0.5 วินาที\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ/เวทมนตร์ มีโอกาสที่ INT +20, MATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Instrument^000000 พลังโจมตี : ^777777160^000000\nน้ำหนัก : ^77777770^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Minstrel^000000",
@@ -206782,9 +206304,9 @@
     "id": 570036,
     "aegisName": "Crime_Violine",
     "name": "Crime Violin [2]",
-    "unidName": "Musical Instrument",
+    "unidName": "Violin",
     "resName": "Sins_Cello",
-    "description": "Matk + 220.\r\nMatk + 5%, SPL + 2.\r\nIncreases Metallic Fury damage by 5%.\r\nIf refine rate is 5 or higher, increases Metallic Fury damage by 10%.\r\nIf refine rate is 7 or higher, increases all property magical damage by 5%.\r\nIf refine rate is 9 or higher, increases Metallic Fury damage by additional 10%.\r\nIf refine rate is 10 or higher, reduces variable casting time by 10%.\r\nIf refine rate is 11 or higher, increases Metallic Fury damage by additional 5%, increases Sound Blend damage by 15%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases all property magical damage by 10%.\r\n[Grade C] increases magical damage against all size enemies by 10%.\r\n[Grade B] increases magical damage against all race enemies by 10%.\r\n[Grade A] increases magical damage against all property enemies by 10%.\r\n\r\nClass: ^777777Instrument^000000 Attack: ^777777120^000000\r\nWeight: ^777777110^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Troubadour^000000",
+    "description": "Violin ที่สะสมพลังจากจิตวิญญาณชั่วร้าย ปล่อยออกมาผ่านเสียงดนตรีอันทรงพลัง\n \nMATK + 220\nMATK + 5%, SPL + 2\nเพิ่ม Damage สกิล Metalic Fury 5%\nเมื่ออัพเกรดถึงขั้น 5, เพิ่ม Damage สกิล Metalic Fury 10%\nเมื่ออัพเกรดถึงขั้น 7, เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 5%\nเมื่ออัพเกรดถึงขั้น 9, เพิ่ม Damage สกิล Metalic Fury ขึ้นอีก 10%\nเมื่ออัพเกรดถึงขั้น 10, ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดถึงขั้น 11, เพิ่ม Damage สกิล Metalic Fury ขึ้นอีก 5%, เพิ่ม Damage สกิล Sound Blend 15%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 10%\n[Grade C] เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 10%\n[Grade B] เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกเผ่า 10%\n[Grade A] เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกธาตุ 10%\n \nประเภท : ^777777Instrument^000000 พลังโจมตี : ^777777120^000000\nน้ำหนัก : ^777777110^000000\nเลเวล Weapon : ^7777775^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Troubadour^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 269,
@@ -206840,9 +206362,9 @@
     "id": 570037,
     "aegisName": "Light_Power_Harp",
     "name": "Light Power Harp [2]",
-    "unidName": "Musical Instrument",
+    "unidName": "Violin",
     "resName": "Fate_Harp",
-    "description": "Atk + 5%, CON + 2.\r\nIncreases Rhythm Shooting damage by 5%.\r\nIf refine rate is 5 or higher, increases Rhythm Shooting damage by 10%.\r\nIf refine rate is 7 or higher, increases long ranged physical damage by 5%.\r\nIf refine rate is 9 or higher, increases Rhythm Shooting damage by additional 10%.\r\nIf refine rate is 10 or higher, reduces variable casting time by 10%.\r\nIf refine rate is 11 or higher, increases Rhythm Shooting damage by additional 5%, increases Rose Blossom damage by 15%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases long ranged physical damage by 10%.\r\n[Grade C] Increases physical damage against all size enemies by 10%.\r\n[Grade B] Increases physical damage against all race enemies by 10%.\r\n[Grade A] Increases physical damage against all property enemies by 10%.\r\n\r\nClass: ^777777Instrument^000000 Attack: ^777777200^000000\r\nWeight: ^777777200^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Troubadour^000000",
+    "description": "Harp ที่กักเก็บพลังแห่งแสงไว้ในตัว และปล่อยออกมาเป็นบทเพลงที่งดงาม\n \nATK + 5%, CON + 2\nเพิ่ม Damage สกิล Rhythm Shooting 5%\nเมื่ออัพเกรดถึงขั้น 5, เพิ่ม Damage สกิล Rhythm Shooting 10%\nเมื่ออัพเกรดถึงขั้น 7, เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่ออัพเกรดถึงขั้น 9, เพิ่ม Damage สกิล Rhythm Shooting ขึ้นอีก 10%\nเมื่ออัพเกรดถึงขั้น 10, ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดถึงขั้น 11, เพิ่ม Damage สกิล Rhythm Shooting ขึ้นอีก 5%, เพิ่ม Damage สกิล Rose Blossom 15%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] เพิ่ม Damage ทางกายภาพระยะไกล 10%\n[Grade C] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 10%\n[Grade B] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 10%\n[Grade A] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกธาตุ 10%\n \nประเภท : ^777777Instrument^000000 พลังโจมตี : ^777777200^000000\nน้ำหนัก : ^777777200^000000\nเลเวล Weapon : ^7777775^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Troubadour^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 269,
@@ -207289,7 +206811,7 @@
   "580002": {
     "id": 580002,
     "aegisName": "Barb_Wire_K",
-    "name": "Ancestral Wire [2]",
+    "name": "Barbed Wire Whip K [2]",
     "unidName": "Rope",
     "resName": "가시철사",
     "description": "แส้ที่ถักด้วยลวดหนามแหลม\nดูกลมกลืนเข้ากับ Ancient Hero Boots\n\nMATK +190\nทุก ๆ การอัพเกรด 2 ขั้น MATK +10\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage ทางเวทมนตร์ธาตุ Neutral 4%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damage สกิล Reverberation, Metalic Sound 10%\nเมื่ออัพเกรดถึงขั้น 11 ลดระยะเวลาร่ายแบบคงที่สกิล Reverberation 0.5 วินาที\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ/เวทมนตร์ มีโอกาสที่ INT +20, MATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Whip^000000 พลังโจมตี : ^777777160^000000\nน้ำหนัก : ^77777770^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Wanderer^000000",
@@ -208201,9 +207723,9 @@
     "id": 580037,
     "aegisName": "Crime_Whip",
     "name": "Crime Whip [2]",
-    "unidName": "Whip",
+    "unidName": "Rope",
     "resName": "Sins_Whip",
-    "description": "Matk + 220.\r\nMatk + 5%, SPL + 2.\r\nIncreases Metallic Fury damage by 5%.\r\nIf refine rate is 5 or higher, increases Metallic Fury damage by 10%.\r\nIf refine rate is 7 or higher, increases all property magical damage by 5%.\r\nIf refine rate is 9 or higher, increases Metallic Fury damage by additional 10%.\r\nIf refine rate is 10 or higher, reduces variable casting time by 10%.\r\nIf refine rate is 11 or higher, increases Metallic Fury damage by additional 5%, increases Sound Blend damage by 15%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases all property magical damage by 10%.\r\n[Grade C] increases magical damage against all size enemies by 10%.\r\n[Grade B] increases magical damage against all race enemies by 10%.\r\n[Grade A] increases magical damage against all property enemies by 10%.\r\n\r\nClass: ^777777Whip^000000 Attack: ^777777120^000000\r\nWeight: ^777777110^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Trouvere^000000",
+    "description": "Whip ที่สะสมพลังจากวิญญาณชั่วร้ายเอาไว้ แสดงออกมาเป็นการโจมตีอันทรงพลัง\n \nMATK + 220\nMATK + 5%, SPL + 2\nเพิ่ม Damage สกิล Metalic Fury 5%\nเมื่ออัพเกรดถึงขั้น 5, เพิ่ม Damage สกิล Metalic Fury 10%\nเมื่ออัพเกรดถึงขั้น 7, เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 5%\nเมื่ออัพเกรดถึงขั้น 9, เพิ่ม Damage สกิล Metalic Fury ขึ้นอีก 10%\nเมื่ออัพเกรดถึงขั้น 10, ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดถึงขั้น 11, เพิ่ม Damage สกิล Metalic Fury ขึ้นอีก 5%, เพิ่ม Damage สกิล Sound Blend 15%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 10%\n[Grade C] เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 10%\n[Grade B] เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกเผ่า 10%\n[Grade A] เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกธาตุ 10%\n \nประเภท : ^777777Whip^000000 พลังโจมตี : ^777777120^000000\nน้ำหนัก : ^777777110^000000\nเลเวล Weapon : ^7777775^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Trouvere^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 270,
@@ -208259,9 +207781,9 @@
     "id": 580038,
     "aegisName": "Light_Power_Spark",
     "name": "Light Power Spark [2]",
-    "unidName": "Whip",
+    "unidName": "Rope",
     "resName": "Fate_Ribbon",
-    "description": "Atk + 5%, CON + 2.\r\nIncreases Rhythm Shooting damage by 5%.\r\nIf refine rate is 5 or higher, increases Rhythm Shooting damage by 10%.\r\nIf refine rate is 7 or higher, increases long ranged physical damage by 5%.\r\nIf refine rate is 9 or higher, increases Rhythm Shooting damage by additional 10%.\r\nIf refine rate is 10 or higher, reduces variable casting time by 10%.\r\nIf refine rate is 11 or higher, increases Rhythm Shooting damage by additional 5%, increases Rose Blossom damage by 15%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases long ranged physical damage by 10%.\r\n[Grade C] Increases physical damage against all size enemies by 10%.\r\n[Grade B] Increases physical damage against all race enemies by 10%.\r\n[Grade A] Increases physical damage against all property enemies by 10%.\r\n\r\nClass: ^777777Whip^000000 Attack: ^777777200^000000\r\nWeight: ^777777200^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Trouvere^000000",
+    "description": "Whip ที่กักเก็บแสดงบริสุทธิ์ และปลดปล่อยออกมาเมื่อทำการสะบัดมัน\n \nATK + 5%, CON + 2\nเพิ่ม Damage สกิล Rhythm Shooting 5%\nเมื่ออัพเกรดถึงขั้น 5, เพิ่ม Damage สกิล Rhythm Shooting 10%\nเมื่ออัพเกรดถึงขั้น 7, เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่ออัพเกรดถึงขั้น 9, เพิ่ม Damage สกิล Rhythm Shooting ขึ้นอีก 10%\nเมื่ออัพเกรดถึงขั้น 10, ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดถึงขั้น 11, เพิ่ม Damage สกิล Rhythm Shooting ขึ้นอีก 5%, เพิ่ม Damage สกิล Rose Blossom 15%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] เพิ่ม Damage ทางกายภาพระยะไกล 10%\n[Grade C] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 10%\n[Grade B] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 10%\n[Grade A] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกธาตุ 10%\n \nประเภท : ^777777Whip^000000 พลังโจมตี : ^777777200^000000\nน้ำหนัก : ^777777200^000000\nเลเวล Weapon : ^7777775^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Trouvere^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 270,
@@ -208709,7 +208231,7 @@
   "590002": {
     "id": 590002,
     "aegisName": "Meteor_Striker",
-    "name": "Ancestral Mace [2]",
+    "name": "Meteor Striker [2]",
     "unidName": "Mace",
     "resName": "메테오스트라이크",
     "description": "ค้อนที่ทำจากแร่หายากที่ค้นพบจากอุกกาบาตชิ้นหนึ่ง\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nไม่สามารถทำลายได้\nทุก ๆ การอัพเกรด 2 ขั้น ATK +10\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Vulcan Arm 10%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damage สกิล Vulcan Arm, Arm Cannon 10%\nเมื่ออัพเกรดถึงขั้น 11 ลดระยะเวลาร่ายแบบแปรผัน 15%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ/เวทมนตร์ มีโอกาสที่ STR +20, ATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Mace^000000 พลังโจมตี : ^777777300^000000\nน้ำหนัก : ^777777300^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Mechanic^000000",
@@ -208751,7 +208273,7 @@
   "590003": {
     "id": 590003,
     "aegisName": "Saint_Hall",
-    "name": "Ancestral Club [2]",
+    "name": "Saint Mace [2]",
     "unidName": "Mace",
     "resName": "Leo_Mace_J",
     "description": "คทาที่เล่าขานกันว่า Star Emperor เก่าแก่ท่านหนึ่งเคยใช้\nดูกลมกลืนเข้ากับ Ancient Hero Boots \nไม่สามารถทำลายได้\nMATK +165, MATK +3%\nทุก ๆ การอัพเกรด 2 ขั้น เพิ่ม Damage ทางเวทมนตร์ธาตุ Holy 1%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Adoramus 5%\nเมื่ออัพเกรดถึงขั้น 9 ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage ทางเวทมนตร์ธาตุ Holy ขึ้นอีก 10%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางเวทมนตร์ มีโอกาสที่ INT +20, MATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Mace^000000 พลังโจมตี : ^777777170^000000\nน้ำหนัก : ^77777780^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Arch Bishop^000000",
@@ -210391,7 +209913,7 @@
   "600004": {
     "id": 600004,
     "aegisName": "Dragonic_Slayer",
-    "name": "Ancestral Bastard Sword [2]",
+    "name": "Dragonic Slayer [2]",
     "unidName": "Two-Handed Sword",
     "resName": "헤타이로이의검",
     "description": "ดาบขนาดใหญ่ที่เล่าขานกันว่าผู้ปราบมังกรในอดีตเคยใช้\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nทุก ๆ การอัพเกรด 2 ขั้น MHP/MSP +3%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Dragon Breath และ Dragon Breath - WATER 5%\nเมื่ออัพเกรดถึงขั้น 9 ลด Delay หลังใช้สกิล 10%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage ทางกายภาพระยะไกล 10%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ มีโอกาสที่ VIT +20 และเพิ่ม Damage ทางกายภาพระยะไกล 10% เป็นเวลา 7 วินาที\nประเภท : ^777777Two-Handed Sword^000000 พลังโจมตี : ^777777180^000000\nน้ำหนัก : ^777777100^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Rune Knight^000000",
@@ -211153,9 +210675,9 @@
     "id": 600041,
     "aegisName": "Execution_Great_Sword",
     "name": "Execution Great Sword [2]",
-    "unidName": "Two-handed Sword",
+    "unidName": "Bastard Sword",
     "resName": "Sins_Blader_Sword",
-    "description": "Atk + 5%, POW + 2.\r\nIncreases Hack and Slasher damage by 5%.\r\nIf refine rate is 5 or higher, increases Hack and Slasher damage by 10%.\r\nIf refine rate is 7 or higher, increases melee physical damage by 5%.\r\nIf refine rate is 9 or higher, increases Hack and Slasher damage by additional 10%.\r\nIf refine rate is 10 or higher, increases attack speed (reduces delay after attack by 10%).\r\nIf refine rate is 11 or higher, increases Hack and Slasher damage by additional 5%, increases Storm Slash damage by 15%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases melee physical damage by 10%.\r\n[Grade C] Increases physical damage against all size enemies by 10%.\r\n[Grade B] Increases physical damage against all race enemies by 10%.\r\n[Grade A] Increases physical damage against all property enemies by 10%.\r\n\r\nClass: ^777777Two-handed Sword^000000 Attack: ^777777280^000000\r\nWeight: ^777777420^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Dragon Knight^000000",
+    "description": "Two-handed Sword อันทรงพลังที่กำจัดทุกสิ่งที่ปรากฏเบื้องหน้า\n \nATK + 5%, POW + 2\nเพิ่ม Damage สกิล Hack and Slasher 5%\nเมื่ออัพเกรดถึงขั้น 5, เพิ่ม Damage สกิล Hack and Slasher 10%\nเมื่ออัพเกรดถึงขั้น 7, เพิ่ม Damage ทางกายภาพระยะใกล้ 5%\nเมื่ออัพเกรดถึงขั้น 9, เพิ่ม Damage สกิล Hack and Slasher ขึ้นอีก 10%\nเมื่ออัพเกรดถึงขั้น 10, ASPD + 10%\nเมื่ออัพเกรดถึงขั้น 11, เพิ่ม Damage สกิล Hack and Slasher ขึ้นอีก 5%, เพิ่ม Damage สกิล Storm Slash 15%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] เพิ่ม Damage ทางกายภาพระยะใกล้ 10%\n[Grade C] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 10%\n[Grade B] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 10%\n[Grade A] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกธาตุ 10%\n \nประเภท : ^777777Two-handed Sword^000000 พลังโจมตี : ^777777280^000000\nน้ำหนัก : ^777777420^000000\nเลเวล Weapon : ^7777775^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Dragon Knight^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 258,
@@ -211381,7 +210903,7 @@
   "610003": {
     "id": 610003,
     "aegisName": "Blade_Katar",
-    "name": "Ancestral Jur [2]",
+    "name": "Blade Katar [2]",
     "unidName": "Katar",
     "resName": "Scorpio_Katar_J",
     "description": "Katar ที่ทำขึ้นจากใบมีดอันแหลมคม\nดูกลมกลืนเข้ากับ Ancient Hero Boots \nทุก ๆ การอัพเกรด 2 ขั้น ATK +10 \nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damage สกิล Rolling Cutter 20%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 7%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางกายภาพ มีโอกาสที่ STR +20, ATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Katar^000000 พลังโจมตี : ^777777185^000000\nน้ำหนัก : ^777777100^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Guillotine Cross^000000",
@@ -214065,9 +213587,9 @@
     "id": 630027,
     "aegisName": "Luppiter_Spear",
     "name": "Jupiter Spear [2]",
-    "unidName": "Spear",
+    "unidName": "Lance",
     "resName": "Fate_Trident",
-    "description": "MaxHP + 5%, POW + 2.\r\nIncreases Dragonic Breath damage by 5%.\r\nIf refine rate is 5 or higher, increases Dragonic Breath damage by 10%.\r\nIf refine rate is 7 or higher, increases long ranged physical damage by 5%.\r\nIf refine rate is 9 or higher, increases Dragonic Breath damage by additional 10%.\r\nIf refine rate is 10 or higher, reduces global cooldown by 10%.\r\nIf refine rate is 11 or higher, increases Dragonic Breath damage by additional 5%, increases Madness Crusher damage by 15%.\r\n\r\n^CC3D3D[Bonus by grade]^000000\r\n[Grade D] Increases long ranged physical damage by 10%.\r\n[Grade C] Increases physical damage against all size enemies by 10%.\r\n[Grade B] Increases physical damage against all race enemies by 10%.\r\n[Grade A] Increases physical damage against all property enemies by 10%.\r\n\r\nClass: ^777777Two-handed Spear^000000 Attack: ^777777300^000000\r\nWeight: ^777777500^000000\r\nWeapon Level: ^7777775^000000\r\nRequired Level: ^777777215^000000\r\nJobs: ^777777Dragon Knight^000000",
+    "description": "Two-handed Spear อันศักดิ์สิทธิ์ที่สร้างเลียนแบบอาวุธที่เทพโบราณเคยใช้\n \nMHP + 5%, POW + 2\nเพิ่ม Damage สกิล Dragonic Breath 5%\nเมื่ออัพเกรดถึงขั้น 5, เพิ่ม Damage สกิล Dragonic Breath 10%\nเมื่ออัพเกรดถึงขั้น 7, เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่ออัพเกรดถึงขั้น 9, เพิ่ม Damage สกิล Dragonic Breath ขึ้นอีก 10%\nเมื่ออัพเกรดถึงขั้น 10, ลด Delay หลังใช้สกิล 10%\nเมื่ออัพเกรดถึงขั้น 11, เพิ่ม Damage สกิล Dragonic Breath ขึ้นอีก 5%, เพิ่ม Damage สกิล Madness Crusher 15%\n \n^CC3D3D[Option เพิ่มเติมตาม Grade]^000000\n[Grade D] เพิ่ม Damage ทางกายภาพระยะไกล 10%\n[Grade C] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 10%\n[Grade B] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกเผ่า 10%\n[Grade A] เพิ่ม Damage ทางกายภาพต่อศัตรูทุกธาตุ 10%\n \nประเภท : ^777777Two-handed Spear^000000 พลังโจมตี : ^777777300^000000\nน้ำหนัก : ^777777500^000000\nเลเวล Weapon : ^7777775^000000\nเลเวลที่ต้องการ : ^777777215^000000\nอาชีพที่ใส่ได้ : ^777777Dragon Knight^000000",
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 260,
@@ -214404,7 +213926,7 @@
   "640004": {
     "id": 640004,
     "aegisName": "Blue_Crystal_Staff",
-    "name": "Ancestral Rod [2]",
+    "name": "Blue Crystal Staff [2]",
     "unidName": "Rod",
     "resName": "미라쥬스태프",
     "description": "ไม้คทาที่เปี่ยมไปด้วยพลังแห่งเยือกแข็ง ถูกใช้โดยจอมเวทย์ในอดีตกาล\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nไม่สามารถทำลายได้\nMATK +200\nทุก ๆ การอัพเกรด 2 ขั้น MATK +10\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Jack Frost 12%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Damage ทางเวทมนตร์ธาตุ Water 7%\nเมื่ออัพเกรดถึงขั้น 11 ลด Cooldown สกิล Jack Frost 1 วินาที, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูธาตุ Fire 7%\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots เมื่อโจมตีทางเวทมนตร์ มีโอกาสที่ INT +20, MATK +15% เป็นเวลา 7 วินาที\nประเภท : ^777777Two-Handed Staff^000000 พลังโจมตี : ^777777100^000000\nน้ำหนัก : ^77777780^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Warlock^000000",
@@ -217241,7 +216763,7 @@
   "700003": {
     "id": 700003,
     "aegisName": "Scalet_Dragon_L_Bow",
-    "name": "Ancestral Gakkung [2]",
+    "name": "Scarlet Dragon Leather Bow [2]",
     "unidName": "Bow",
     "resName": "아크오스다이모니쿠스",
     "description": "ธนูที่ทำขึ้นโดยติดหนังของมังกรเพลิงซ้อนกับคันธนูอันทรงพลัง\nดูกลมกลืนเข้ากับ Ancient Hero Boots\nทุก ๆ การอัพเกรด 2 ขั้น ATK +10\nทุก ๆ การอัพเกรด 3 ขั้น ลด Delay หลังใช้สกิล 4%\nเมื่ออัพเกรดตั้งแต่ 9 ขึ้นไป เพิ่ม Damage สกิล Aimed Bolt 35%\nเมื่ออัพเกรดถึงขั้น 11, ลด Cooldown สกิล Aimed Bolt 1 วินาที\nเมื่อสวมใส่ร่วมกับ Ancient Hero Boots และทำการโจมตีทางกายภาพ\nมีโอกาสที่จะ DEX +20 และเพิ่มพลังโจมตีของอาวุธประเภท Bow 20% เป็นเวลา 7 วินาที\nประเภท : ^777777Bow^000000 พลังโจมตี : ^777777170^000000\nน้ำหนัก : ^77777780^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777Ranger Cls^000000",
@@ -223286,338 +222808,6 @@
     "script": {
       "aspd": [
         "1"
-      ]
-    }
-  },
-    "15038": {
-    "id": 15038,
-    "aegisName": "Sabah_Cloth",
-    "name": "Saphas Cloth [1]",
-    "unidName": "Armor",
-    "resName": "사바흐의클로스",
-    "description": "กาตาร์ที่รู้จักกันว่าใช้โดย Assassin Cheongeun กล่าวกันว่าตั้งชื่ออาวุธของตนเองตามชื่อของคนรักที่ไม่สามารถพบกับได้อีก\nเพิ่ม Damage ทางกายภาพ 1% ต่อระดับ Refine 2 ระดับ\nเพิ่มความเร็วโจมตี (ลดดีเลย์หลังโจมตี 1% ต่อระดับ Refine 1 ระดับ)\nทำลายไม่ได้\nประเภท : ^777777Katar^000000 โจมตี : ^777777300^000000\nน้ำหนัก : ^777777250^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777170^000000\nติดตั้ง : ^777777Guillotine Cross^000000",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 513,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 45,
-    "weight": 10,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "GuillotineCross"
-    ],
-    "script": {
-	 "luk": [
-        "3"
-      ],
-	  "criDmg": [
-        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===40"
-      ],
-      "flee": [
-        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===10"
-      ],
-      "cri": [
-        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===15"
-      ],
-      "Cross Impact": [
-        "EQUIP[Sapha Hood&&Sapha Ring&&Sapha Shoes]===20"
-      ]
-	}
-  },
-  "1746": {
-    "id": 1746,
-    "aegisName": "Elven_Bow",
-    "name": "Elven Bow [1]",
-    "unidName": "엘븐보우",
-    "resName": "Elven Bow",
-    "description": "คันธนูที่กล่าวกันว่านักล่ามักจะใช้กัน ถึงแม้ว่าวิธีใช้จะยุ่งยาก แต่เมื่อได้ใช้แล้ว การยิงที่เฉียบคมและพลังทำลายล้างของมันก็จะทำให้ผู้ใช้ตกหลุมรักได้ไม่ยาก\nเมื่อสวมใส่ร่วมกับ Hunting Arrow, เพิ่ม Damage ทางกายภาพระยะไกล 50%\nทุก ๆ การอัพเกรด 1 ขั้น CRI + 1\nเมื่ออัพเกรดถึงขั้น 7 เพิ่ม ASPD 10% \nเมื่ออัพเกรดถึงขั้น 9 เพิ่ม Critical Damage 15%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage ทางกายภาพที่ทำต่อมอนสเตอร์ประเภท Insect, Animal 30%\n^ffffff_^000000\nเมื่อสวมใส่ร่วมกับ Illusion Boots, ATK + 10%\nเมื่อ Illusion Hunter Bow และ Illusion Boots อัพเกรดถึงขั้น 7 ขึ้นไป ASPD + 2\nหากขั้นอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป เพิ่ม Critical Damage 10%\nหากขั้นอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เมื่อทำการโจมตีทางกายภาพระยะไกลแบบธรรมดา มีโอกาสใช้งาน Hunter's Sight เป็นเวลา 10 วินาที\n^32CD32[Hunter's Sight]^000000\nATK + 100, เพิ่ม Critical Damage 15%,\nเพิ่ม Damage ทางกายภาพที่ทำต่อมอนสเตอร์ประเภท Insect, Animal 50%\nประเภท : ^777777Bow^000000 พลังโจมตี : ^777777165^000000\nน้ำหนัก : ^777777150^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777120^000000\nอาชีพที่ใส่ได้ : ^777777Ranger^000000",
-    "slots": 1,
-    "itemTypeId": 1,
-    "itemSubTypeId": 267,
-    "itemLevel": 3,
-    "attack": 160,
-    "defense": null,
-    "weight": 150,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "Ranger",
-	  "Troubadour",
-	  "Trouvere"
-    ],
-    "script": {
-		"dex": [
-        "2"
-      ]
-	}
-  },
-  "2477": {
-    "id": 2477,
-    "aegisName": "Sabah_Shoes",
-    "name": "Sapha Shoes [1]",
-    "unidName": "Footwear",
-    "resName": "사바흐의슈즈",
-    "description": "Shoes จาก archer guild ที่รู้จักกันในนาม Icarus\nAGI + 2\nลดการใช้ SP ของสกิล Aimed Bolt ลง 10\nประเภท : ^777777Footwear^000000 พลังป้องกัน : ^77777718^000000\nน้ำหนัก : ^77777740^000000\nLv ที่ต้องการ : ^777777100^000000\nอาชีพ : ^777777Ranger^000000",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 516,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 18,
-    "weight": 40,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "GuillotineCross"
-    ],
-    "script": {
-      "luk": [
-        "3"
-      ],
-	  "sp": [
-        "30"
-      ]
-	  }
-    },
-  "2886": {
-    "id": 2886,
-    "aegisName": "Sabah_Ring",
-    "name": "Sapha Ring",
-    "unidName": "Accessory",
-    "resName": "사바흐의링",
-    "description": "Shoes จาก archer guild ที่รู้จักกันในนาม Icarus\nAGI + 2\nลดการใช้ SP ของสกิล Aimed Bolt ลง 10\nประเภท : ^777777Footwear^000000 พลังป้องกัน : ^77777718^000000\nน้ำหนัก : ^77777740^000000\nLv ที่ต้องการ : ^777777100^000000\nอาชีพ : ^777777Ranger^000000",
-    "slots": 0,
-    "itemTypeId": 2,
-    "itemSubTypeId": 517,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 10,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "GuillotineCross"
-    ],
-    "script": {
-      "cri": [
-        "3"
-      ]
-	  }
-    },
-  "2577": {
-    "id": 2577,
-    "aegisName": "Sabah_Hood",
-    "name": "Sapha Hood",
-    "unidName": "Garmet",
-    "resName": "사바흐의링",
-    "description": "Shoes จาก archer guild ที่รู้จักกันในนาม Icarus\nAGI + 2\nลดการใช้ SP ของสกิล Aimed Bolt ลง 10\nประเภท : ^777777Footwear^000000 พลังป้องกัน : ^77777718^000000\nน้ำหนัก : ^77777740^000000\nLv ที่ต้องการ : ^777777100^000000\nอาชีพ : ^777777Ranger^000000",
-    "slots": 0,
-    "itemTypeId": 2,
-    "itemSubTypeId": 515,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 13,
-    "weight": 10,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "GuillotineCross"
-    ],
-    "script": {
-      "flee": [
-        "12"
-      ],
-	  "criDmg": [
-        "1---1"
-      ]
-    }
-  },
-  "470373": {
-    "id": 470373,
-    "aegisName": "Excelion_Boots",
-    "name": "Excelion Leg",
-    "unidName": "Footwear",
-    "resName": "엑셀리온슈츠",
-    "description": "Power Suit ที่สร้างขึ้นด้วยเทคโนโลยีที่หายไปกับศูนย์วิจัยที่พังลงไป\nVIT+6.\nเมื่อ Lv. 130 ขึ้นไป VIT + 4\nเพิ่ม MHP 4% ทุกๆ 3 อัพเกรด\nเมื่อสวมใส่กับ [Excelion Wing]\nลดดีเลย์หลังใช้สกิล 10%\nเมื่อ Lv. 130 ขึ้นไป ลดดีเลย์หลังใช้สกิลเพิ่มอีก 10%\nPerfect Dodge + 6, ไม่สามารถทำลายได้\nประเภท : ^777777Armor^000000 พลังป้องกัน : ^777777100^000000\nน้ำหนัก : ^777777100^000000\nเลเวลที่ต้องการ : ^77777799^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 2,
-    "itemSubTypeId": 516,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 100,
-    "weight": 100,
-    "requiredLevel": 99,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "fct": [
-        "SUM[level==130]===0.5"
-      ],
-      "vct": [
-        "10"
-      ],
-	  "hit": [
-		"1---3",
-        "10"
-      ]
-    }
-  },
-  "24019": {
-    "id": 24019,
-    "aegisName": "S_Physical_Weapon",
-    "name": "Physical Shadow Glove",
-    "unidName": "Shadow Weapon",
-    "resName": "피지컬웨폰S",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 10,
-    "itemSubTypeId": 280,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Weapon",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-	  "atk": [
-        "1---1",
-		"10",
-	    "EQUIP[Dark Physical Necklace&&Dark Physical Earring]REFINE[shadowEarring,shadowWeapon,shadowPendant--1]---1"
-      ],
-      "matk": [
-        "1---1"
-      ],
-      "atkPercent": [
-        "7===1",
-	    "EQUIP[Dark Physical Necklace&&Dark Physical Earring]REFINE[shadowEarring,shadowWeapon,shadowPendant==23]===1"
-      ]
-    }
-  },
-  "24020": {
-    "id": 24020,
-    "aegisName": "S_Physical_Pendant",
-    "name": "Dark Physical Necklace",
-    "unidName": "Shadow Pendant",
-    "resName": "피지컬펜던트S",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 10,
-    "itemSubTypeId": 530,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Accessory",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-	  "hp": [
-		"100",
-		"1---10"
-      ],
-      "hpPercent": [
-        "7===1"
-      ]
-    }
-  },
-  "24018": {
-    "id": 24018,
-    "aegisName": "S_Physical_Earring",
-    "name": "Dark Physical Earring",
-    "unidName": "Shadow Earring",
-    "resName": "피지컬이어링S",
-    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 10,
-    "itemSubTypeId": 529,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Accessory",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-	  "hp": [
-		"100",
-		"1---10"
-      ],
-      "aspdPercent": [
-        "7===1"
-      ]
-    }
-  },
-  "1181": {
-    "id": 1181,
-    "aegisName": "Tae_Goo_Lyeon",
-    "name": "Tae Goo Lyeon [2]",
-    "unidName": "Two-Handed Sword",
-    "resName": "태구련",
-    "description": "ดาบนี้เป็นที่รู้จักในชื่อดาบแห่งผู้กล้าตะวันออก\nPerfect Dodge +10\nทุก ๆ การอัพเกรด 1 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 2%\nเมื่ออัพเกรดถึงขั้น 7 ลดปริมาณการใช้ SP 20%\nเมื่ออัพเกรดถึงขั้น 9 ลด Delay หลังใช้สกิล 20%\nเมื่ออัพเกรดถึงขั้น 11, MHP +10%, MSP +10%\n^ffffff_^000000\nเมื่อสวมใส่ร่วมกับ Illusion Boots เพิ่ม Damage ทางกายภาพระยะไกล 3%\nเมื่อ Illusion Tae Goo Lyeon และ Illusion Boots อัพเกรดตั้งแต่ 7 ขึ้นไป ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 18 ขึ้นไป ลดระยะเวลาร่ายแบบคงที่ 0.5 วินาที\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 22 ขึ้นไป เพิ่ม Damage สกิล Dragon Breath, Dragon Breath - WATER 20%\n^ffffff_^000000\nประเภท : ^777777Two-Handed Sword^000000 พลังโจมตี : ^777777250^000000\nน้ำหนัก : ^777777200^000000\nเลเวลของอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^777777120^000000\nอาชีพที่ใส่ได้ : ^7777773rd Class Swordman^000000",
-    "slots": 2,
-    "itemTypeId": 1,
-    "itemSubTypeId": 258,
-    "itemLevel": 4,
-    "attack": 250,
-    "defense": null,
-    "weight": 200,
-    "requiredLevel": 90,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "Swordman"
-    ],
-    "script": {
-      "perfectDodge": [
-        "10"
-      ],
-      "acd": [
-        "9===20"
-      ]
-    }
-  },
-  "4638": {
-    "id": 4638,
-    "aegisName": "Watcher_Card",
-    "name": "Watcher Card",
-    "unidName": "Watcher Card",
-    "resName": "와쳐카드",
-    "description": "ATK +30.\nWhen receiving physical attacks:\nDrains 5 SP from the user.",
-    "slots": 0,
-    "itemTypeId": 6,
-    "itemSubTypeId": 0,
-    "itemLevel": null,
-    "attack": null,
-    "defense": null,
-    "weight": 1,
-    "requiredLevel": null,
-    "location": null,
-    "compositionPos": 16,
-    "cardPrefix": "da Agressividade",
-    "script": {
-      "atk": [
-        "30",
-        "10===5"
       ]
     }
   }
