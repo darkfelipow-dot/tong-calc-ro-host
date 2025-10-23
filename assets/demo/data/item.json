@@ -1,4 +1,857 @@
-{
+{	  
+    "24062": {
+    "id": 24062,
+    "aegisName": "S_Bloody_Shoes",
+    "name": "Bloody Shadow Shoes",
+    "unidName": "Shadow Shoes",
+    "resName": "블러디슈즈S",
+    "description": "รองเท้าศักดิ์สิทธิ์ช่วยปกป้องผู้สวมใส่ สามารถใส่ชิ้นเดียวได้แต่พลังของมันจะลดลง\nลดดีเลย์หลังใช้สกิล 1%\nอัพเกรดถึง +7, ลดดีเลย์หลังใช้สกิลเพิ่มอีก 1%\nอัพเกรดถึง +9, ลดดีเลย์หลังใช้สกิลเพิ่มอีก 1%\nเมื่อสวมใส่ ^32CD32Reload (Shoes, Shield, Armor) Shadow^000000 ด้วยกัน, ลดดีเลย์หลังใช้สกิล 1%\nเมื่อขั้นอัพเกรดรวมกันมากกว่า 25 ขึ้นไป, ลดดีเลย์หลังใช้สกิล 5%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Shoes^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ :^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 528,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Shoes",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "p_race_demihuman": [
+        "2",
+        "7===1",
+        "9===2"
+      ]
+    }
+  },
+    "4587": {
+    "id": 4587,
+    "aegisName": "Tiyanak_Card",
+    "name": "Tiyanak Card",
+    "unidName": "Tiyanak Card",
+    "resName": "티억넠카드",
+    "description": "CRIT +12 against the Fish, Brute, Doram, Human and Humanoid races.",
+    "slots": 0,
+    "itemTypeId": 6,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 136,
+    "cardPrefix": "de Contra-Ataque",
+    "script": {
+      "cri_race_Fish": [
+        "12"
+      ],
+      "cri_race_DemiHuman": [
+        "12"
+      ],
+      "cri_race_Brute": [
+        "12"
+      ]
+    }
+  },
+    "4091": {
+    "id": 4091,
+    "aegisName": "Kobol_Card",
+    "name": "Kobold Card",
+    "unidName": "Kobold Card",
+    "resName": "코볼트카드",
+    "description": "CRIT+4,STR+1",
+    "slots": 0,
+    "itemTypeId": 6,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 136,
+    "cardPrefix": "de Contra-Ataque",
+    "script": {
+      "cri": [
+        "4"
+      ],
+      "str": [
+        "1"
+      ]
+    }
+  },
+    "2519 ": {
+    "id": 2519 ,
+    "aegisName": "Morrigane's_Manteau",
+    "name": "Morrigane's Manteau",
+    "unidName": "Hood",
+    "resName": "모리아네의망토",
+    "description": "Luk+2. Perfect Dodge +8",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 9,
+    "weight": 60,
+    "requiredLevel": 61,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "unusableClass": [
+      "Novice"
+    ],
+    "script": {
+      "luk": [
+        "2"
+      ],
+      "perfectDodge": [
+        "8"
+      ]
+    }
+  },
+	"490731": {
+    "id": 490731,
+    "aegisName": "Growth_RingL_A_G",
+    "name": "Growth Magic Booster Left Ring [1]",
+    "unidName": "Growth_RingL",
+    "resName": "젬스톤아머S",
+    "description": "ASPD +1.Max. SP +5%.Weapon ATK +5%.Ranged physical damage +3%.",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "matk": [
+        "10"
+      ],
+	   "m_element_all": [
+        "3"
+      ],
+	   "matkPercent": [
+        "5"
+      ],
+	   "hpPercent": [
+        "5"
+      ]
+    }
+  },	
+	"490732": {
+    "id": 490732,
+    "aegisName": "Growth_RingL_M_G",
+    "name": "Growth Magic Booster Left Ring [1]",
+    "unidName": "Growth_RingM",
+    "resName": "젬스톤아머S",
+    "description": "MATK +10. Max.SP +5%. Magic Damage +5% All Property Magic Damage +3%.",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "matk": [
+        "10"
+      ],
+	   "m_element_all": [
+        "3"
+      ],
+	   "matkPercent": [
+        "5"
+      ],
+	   "spPercent": [
+        "5"
+      ]
+    }
+  },
+    "490730": {
+    "id": 490730,
+    "aegisName": "Growth_RingL_A_G",
+    "name": "Growth Attack Booster Left Ring [1]",
+    "unidName": "Growth_RingL",
+    "resName": "젬스톤아머S",
+    "description": "ASPD +1.Max. SP +5%.Weapon ATK +5%.Ranged physical damage +3%.",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 50,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "aspd": [
+        "1"
+      ],
+	   "p_class_all": [
+        "5"
+      ],
+	   "spPercent": [
+        "5"
+      ],
+	   "melee": [
+        "3"
+      ],
+	   "range": [
+        "3"
+      ]
+    }
+  },
+    "490729": {
+    "id": 490729,
+    "aegisName": "Growth_RingL_A_G",
+    "name": "Growth Attack Booster Left Ring [1]",
+    "unidName": "Growth_RingL",
+    "resName": "젬스톤아머S",
+    "description": "HIT +10.Max. HP +5%.Weapon ATK +5%.Ranged physical damage +3%.",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 50,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+       "p_class_all": [
+        "5"
+      ],
+	   "hpPercent": [
+        "5"
+      ],
+	   "hit": [
+        "10"
+      ],
+	   "melee": [
+        "3"
+      ],
+	   "range": [
+        "3"
+      ]
+    }
+  },
+    "24084": {
+    "id": 24084,
+    "aegisName": "S_Gemstone_Armor",
+    "name": "Gemstone Shadow Armor",
+    "unidName": "Shadow Armor",
+    "resName": "젬스톤아머S",
+    "description": "CRIT+5 EACH 2 REFINE CRIT +1",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 526,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Armor",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "cri": [
+        "5",
+        "2---1"
+      ]
+    }
+  },
+    "13455": {
+    "id": 13455,
+    "aegisName": "Sinister_Saber",
+    "name": "Vicious Mind Sabre [1]",
+    "unidName": "Sword",
+    "resName": "사념의세이버",
+    "description": "Bonus according to refine up to +15:ATK +(refine × refine).",
+    "slots": 1,
+    "itemTypeId": 1,
+    "itemSubTypeId": 256,
+    "itemLevel": 4,
+    "attack": 135,
+    "defense": null,
+    "weight": 135,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Swordman",
+      "Merchant"
+    ],	
+	"script": {
+        "atk": [
+        "1===1",
+        "2===3",
+        "3===5",
+        "4===7",
+        "5===9",
+        "6===11",
+        "7===13",
+        "8===15",
+        "9===17",
+        "10===19",
+        "11===21",
+        "12===23",
+        "13===25",
+        "14===27",
+        "15===29"
+      ]
+    }
+},
+    
+	"16041": {
+    "id": 16041,
+    "aegisName": "Sinister_Mace",
+    "name": "Vicious Mind Mace [1]",
+    "unidName": "Mace",
+    "resName": "사념의메이스",
+    "description": "Bonus according to refine up to +15:ATK +(refine × refine).",
+    "slots": 1,
+    "itemTypeId": 1,
+    "itemSubTypeId": 256,
+    "itemLevel": 4,
+    "attack": 130,
+    "defense": null,
+    "weight": 130,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Swordman",
+      "Merchant"
+    ],
+    "script": {
+        "atk": [
+        "1===1",
+        "2===3",
+        "3===5",
+        "4===7",
+        "5===9",
+        "6===11",
+        "7===13",
+        "8===15",
+        "9===17",
+        "10===19",
+        "11===21",
+        "12===23",
+        "13===25",
+        "14===27",
+        "15===29"
+      ]
+    }
+  },		
+    "28107": {
+    "id": 28107,
+    "aegisName": "Sinister_Twohand_Axe",
+    "name": "Vicious Mind Two-Handed Axe [1]",
+    "unidName": "Axe",
+    "resName": "사념의투핸드액스",
+    "description": "Bonus according to refine up to +15:ATK +(refine × refine).",
+    "slots": 1,
+    "itemTypeId": 1,
+    "itemSubTypeId": 256,
+    "itemLevel": 4,
+    "attack": 250,
+    "defense": null,
+    "weight": 250,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "Swordman",
+      "Merchant"
+    ],
+    "script": {
+        "atk": [
+        "1===1",
+        "2===3",
+        "3===5",
+        "4===7",
+        "5===9",
+        "6===11",
+        "7===13",
+        "8===15",
+        "9===17",
+        "10===19",
+        "11===21",
+        "12===23",
+        "13===25",
+        "14===27",
+        "15===29"
+      ]
+    }
+  },
+	"15096": {
+    "id": 15096,
+    "aegisName": "Hero_Trade_Mai",
+    "name": "Hero Trade Mail [1]",
+    "unidName": "Armor",
+    "resName": "용사의트레이드메일",
+    "description": "HP and SP +5%.ATK and MATK +10.",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 100,
+    "weight": 50,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "hpPercent": [
+        "5"
+      ],
+	  "spPercent": [
+        "5"
+      ],
+	  "atk": [
+        "10"
+      ],
+	  "matk": [
+        "10"
+      ],
+	  "str": [
+        "SUM[str==90]2---1"
+      ],
+      "agi": [
+        "SUM[agi==90]2---1"
+      ],
+      "vit": [
+        "SUM[vit==90]2---1"
+      ],
+      "int": [
+        "SUM[int==90]2---1"
+      ],
+      "dex": [
+        "SUM[dex==90]2---1"
+      ],
+      "luk": [
+        "SUM[luk==90]2---1"
+      ]
+	}
+ },
+    "420155": {
+    "id": 420155,
+    "aegisName": "Booster_Scarf_C",
+    "name": "Booster Scarf C",
+    "unidName": "Booster_Scarf_C",
+    "resName": "qwqqwd",
+    "description": "CRI -3 . Crit DMG +5%",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": 1,
+    "location": "Lower",
+    "compositionPos": null,
+	 "usableClass": [
+      "all"    
+	  ],
+    "script": {
+      "cri": [
+        "3"
+      ],
+	  "criDmg": [
+        "5"
+      ]
+    }
+  },	
+    "420154": {
+    "id": 420154,
+    "aegisName": "Booster_Scarf_B",
+    "name": "Booster Scarf B",
+    "unidName": "Booster_Scarf_B",
+    "resName": "qwqqwd",
+    "description": "VCT -3 . Magic DMG all Propierity",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": 1,
+    "location": "Lower",
+    "compositionPos": null,
+	 "usableClass": [
+      "all"    
+	  ],
+    "script": {
+      "vct": [
+        "3"
+      ],
+	  "matkPercent": [
+        "5"
+      ]
+    }
+  },
+    "420153": {
+    "id": 420153,
+    "aegisName": "Booster_Scarf_A",
+    "name": "Booster Scarf A",
+    "unidName": "Booster_Scarf_A",
+    "resName": "qwqqwd",
+    "description": "VCT -3 . Melle DMG +5% ,Ranged DMG +5%",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": 1,
+    "location": "Lower",
+    "compositionPos": null,
+	 "usableClass": [
+      "all"    
+	  ],
+    "script": {
+      "vct": [
+        "3"
+      ],
+	  "melee": [
+        "5"
+      ],
+	  	  "range": [
+        "5"
+      ]
+    }
+  },
+	"4468": {
+    "id": 4468,
+    "aegisName": "Pinguicula_Dark_Card",
+    "name": "Dark Pinguicula Card",
+    "unidName": "Pinguicula_Dark_Card",
+    "resName": "핀귀큘라다크카드",
+    "description": "+10 atk",
+    "slots": 0,
+    "itemTypeId": 6,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 769,
+    "cardPrefix": "Hera Venenosa",
+    "script": {
+      "atk": [
+        "10",
+        "1---5"
+      ]
+    }
+  },
+	"20923": {
+    "id": 20923,
+    "aegisName": "Goibne_Shoulder_IL",
+    "name": "Illusion Goibne's Spaulders [1]",
+    "unidName": "Garmet",
+    "resName": "흰날개의",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 47,
+    "weight": 100,
+    "requiredLevel": 130,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "vit": [
+        "1"
+      ],
+	  "Mdef": [
+        "2"
+      ],
+	  "p_element_water": [
+        "7===5",
+		"9===10"
+      ],
+	  "p_element_earth": [
+        "7===5",
+		"9===10"
+      ],
+	  "p_element_fire": [
+        "7===5",
+		"9===10"
+      ],
+	  "p_element_wind": [
+        "7===5",
+		"9===10"
+      ]
+	}
+},
+	"22192": {
+    "id": 22192,
+    "aegisName": "Goibne_Boots_IL",
+    "name": "Illusion Goibne's Greaves [1]",
+    "unidName": "Shoes",
+    "resName": "흰날개의슈츠",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 516,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 42,
+    "weight": 130,
+    "requiredLevel": 130,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "hpPercent": [
+        "5"
+      ],
+	  "spPercent": [
+        "5"
+      ],
+	  "vct": [
+        "7===5"
+      ],
+	  "range": [
+        "9===10"
+      ],
+	  "melee": [
+        "9===10"
+      ]
+	}
+},	
+"15348": {
+    "id": 15348,
+    "aegisName": "Goibne_Armor_IL",
+    "name": "Illusion Goibne's Armor [1]",
+    "unidName": "Armor",
+    "resName": "흰날개의슈츠",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 158,
+    "weight": 350,
+    "requiredLevel": 130,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "hpPercent": [
+        "10"
+      ],
+	  "def": [
+        "7===50",
+		"9===100"
+      ]
+	}
+},	
+ "450445": {
+    "id": 450445,
+    "aegisName": "Growth_Armor_A_G",
+    "name": "Growth Attack Booster Armor [1]",
+    "unidName": "Growth Attack Booster Armor",
+    "resName": "GrowthaArmor",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 100,
+    "weight": 0,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "atk": [
+        "50",
+		"level:40(1-120)---10"
+      ],
+	  "acd": [
+        "SUM[level==130]===5"
+      ]
+	}
+ },
+ "450446": {
+    "id": 450446,
+    "aegisName": "Growth_Armor_M_G",
+    "name": "Growth Magic Booster Armor [1]",
+    "unidName": "Growth Magic Booster Armor",
+    "resName": "GrowthArmor",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 100,
+    "weight": 0,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "matk": [
+        "50",
+		"level:40(1-120)---10"
+      ],
+	  "acd": [
+        "SUM[level==130]===5"
+      ]
+	}
+ },
+  "24371": {
+    "id": 24371,
+    "aegisName": "S_MortalBlow_Earring",
+    "name": "Mortal Blow Shadow Earring",
+    "unidName": "Shadow Earring",
+    "resName": "웨폰쉐도우",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 529,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Accessory",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+	  "hp": [
+        "1---10"
+      ],
+	  "criDmg": [
+        "1",
+		"7===1",
+		"9===1"
+      ]
+    }
+  },
+  "24372": {
+    "id": 24372,
+    "aegisName": "S_MortalBlow_Pendent",
+    "name": "Mortal Blow Shadow Pendant",
+    "unidName": "Shadow Pendant",
+    "resName": "모탈블로우펜던트S",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 530,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Accessory",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "hp": [
+        "1---10"
+      ],
+	  "criDmg": [
+        "1",
+		"7===1",
+		"9===1"
+      ]
+    }
+  },
+  "24370": {
+    "id": 24370,
+    "aegisName": "S_MortalBlow_Weapon",
+    "name": "Mortal Blow Shadow Weapon",
+    "unidName": "Shadow Weapon",
+    "resName": "웨폰쉐도우",
+    "description": "ถุงมือที่มีการติดอาวุธช่วยเพิ่มศักยภาพที่ซ่อนอยู่ของผู้สวมใส่\nATK + 10.\nเมื่ออัพเกรด +7, Range Damage เพิ่มขึ้น 1%\nเมื่อสวมใส่กับ ^32CD32Kingbird's Shadow Weapon^000000 และ ^32CD32Ancient Shadow Armor^000000, ATK เพิ่มขึ้นเท่ากับผลรวมของการอัพเกรด\nเมื่อผลรวมการอัพเกรดมากกว่า 15 จะเพิ่ม Range Damage ขึ้น 1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 280,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": "Weapon",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "atk": [
+        "1---1"
+      ],
+      "matk": [
+        "1---1"
+      ],
+	  "criDmg": [
+        "2",
+		"7===2",
+		"9===3",
+		"EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]REFINE[shadowEarring,shadowWeapon,shadowPendant==0]===2",
+		"EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]REFINE[shadowEarring,shadowWeapon,shadowPendant==25]===10"
+     ]
+    }
+  },
   "645": {
     "id": 645,
     "aegisName": "Center_Potion",
